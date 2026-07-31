@@ -1,12 +1,14 @@
 {
   "meta": {
     "appName": "M4CROPHAGE Club Hub",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "season": "Season One",
     "legacyName": "FlyingAce4",
     "startingDivision": "Legend V",
-    "dataThrough": "S1-M010",
-    "matchCount": 10
+    "dataThrough": "S1-M020",
+    "matchCount": 20,
+    "detailedMatchesThrough": "S1-M010",
+    "aggregateDataThrough": "S1-M020"
   },
   "branding": {
     "clubName": "M4CROPHAGE",
@@ -18,96 +20,96 @@
     "surface": "#0A1727"
   },
   "current": {
-    "nextMatch": "S1-M011",
-    "formation": "4-1-2-1-2 Narrow",
-    "captain": "Federico Dimarco",
+    "nextMatch": "S1-M021",
+    "formation": "3-5-2",
+    "captain": "Christian Pulisic",
     "unbeatenRun": 5
   },
   "currentXI": [
     {
       "position": "ST",
       "name": "Lionel Messi",
-      "ovr": 126
+      "ovr": null
     },
     {
       "position": "ST",
       "name": "Kylian Mbappé",
-      "ovr": 127
+      "ovr": null
     },
     {
       "position": "CAM",
       "name": "Wesley Sneijder",
-      "ovr": 126
+      "ovr": null
     },
     {
-      "position": "LCM",
-      "name": "Ruud Gullit",
-      "ovr": 125
-    },
-    {
-      "position": "RCM",
+      "position": "LM",
       "name": "Jude Bellingham",
-      "ovr": 126
+      "ovr": null
+    },
+    {
+      "position": "CDM",
+      "name": "Ruud Gullit",
+      "ovr": null
     },
     {
       "position": "CDM",
       "name": "Declan Rice",
-      "ovr": 125
+      "ovr": null
     },
     {
-      "position": "LB",
-      "name": "Federico Dimarco",
-      "ovr": 124,
+      "position": "RM",
+      "name": "Christian Pulisic",
+      "ovr": null,
       "captain": true
     },
     {
       "position": "LCB",
+      "name": "Rafael Márquez",
+      "ovr": null
+    },
+    {
+      "position": "CB",
       "name": "Micky van de Ven",
-      "ovr": 124
+      "ovr": null
     },
     {
       "position": "RCB",
       "name": "Dayot Upamecano",
-      "ovr": 126
-    },
-    {
-      "position": "RB",
-      "name": "Pedro Porro",
-      "ovr": 125
+      "ovr": null
     },
     {
       "position": "GK",
       "name": "Edwin van der Sar",
-      "ovr": 125
+      "ovr": null
     }
   ],
   "season": {
     "record": {
-      "wins": 6,
-      "draws": 2,
-      "losses": 2
+      "wins": 8,
+      "draws": 5,
+      "losses": 7
     },
-    "points": 20,
-    "goalsFor": 17,
-    "goalsAgainst": 17,
-    "goalDifference": 0,
-    "shots": 30,
-    "shotsOnTarget": 27,
-    "opponentShots": 54,
-    "opponentShotsOnTarget": 44,
-    "averagePossession": 47.4,
-    "averagePassAccuracy": 84.2,
-    "cleanSheets": 2,
-    "matchesScoring": 9
+    "points": 29,
+    "goalsFor": 34,
+    "goalsAgainst": 37,
+    "goalDifference": -3,
+    "shots": null,
+    "shotsOnTarget": null,
+    "opponentShots": null,
+    "opponentShotsOnTarget": 84,
+    "averagePossession": null,
+    "averagePassAccuracy": null,
+    "cleanSheets": 5,
+    "matchesScoring": null
   },
   "leaders": {
     "topScorer": {
-      "name": "Wesley Sneijder",
-      "value": 4
+      "name": "Kylian Mbappé",
+      "value": 9
     },
     "assistLeader": {
-      "name": "Christian Pulisic",
-      "value": 5
+      "name": "Lionel Messi",
+      "value": 13
     },
     "gvaLeader": {
       "name": "Wesley Sneijder",
@@ -122,8 +124,8 @@
       "status": "Starter",
       "startsVerified": 2,
       "subsVerified": 0,
-      "goals": 4,
-      "assists": 0,
+      "goals": 5,
+      "assists": 1,
       "gva": 6,
       "captainStarts": 0,
       "matchLog": [
@@ -156,8 +158,8 @@
       "status": "Starter",
       "startsVerified": 2,
       "subsVerified": 0,
-      "goals": 4,
-      "assists": 3,
+      "goals": 9,
+      "assists": 4,
       "gva": 4,
       "captainStarts": 0,
       "matchLog": [
@@ -205,8 +207,8 @@
       "status": "Starter",
       "startsVerified": 2,
       "subsVerified": 0,
-      "goals": 2,
-      "assists": 1,
+      "goals": 3,
+      "assists": 2,
       "gva": 4,
       "captainStarts": 0,
       "matchLog": [
@@ -234,8 +236,8 @@
       "status": "Starter",
       "startsVerified": 2,
       "subsVerified": 0,
-      "goals": 2,
-      "assists": 4,
+      "goals": 5,
+      "assists": 13,
       "gva": 2,
       "captainStarts": 0,
       "matchLog": [
@@ -273,8 +275,8 @@
       "status": "Starter",
       "startsVerified": 2,
       "subsVerified": 0,
-      "goals": 2,
-      "assists": 1,
+      "goals": 3,
+      "assists": 2,
       "gva": 2,
       "captainStarts": 0,
       "matchLog": [
@@ -326,8 +328,8 @@
       "status": "Rotation",
       "startsVerified": 0,
       "subsVerified": 1,
-      "goals": 2,
-      "assists": 1,
+      "goals": 6,
+      "assists": 2,
       "gva": 1,
       "captainStarts": 0,
       "matchLog": [
@@ -352,13 +354,13 @@
       "name": "Christian Pulisic",
       "position": "RW",
       "ovr": null,
-      "status": "Rotation",
+      "status": "Captain",
       "startsVerified": 1,
       "subsVerified": 1,
-      "goals": 0,
-      "assists": 5,
+      "goals": 2,
+      "assists": 6,
       "gva": 0,
-      "captainStarts": 1,
+      "captainStarts": 4,
       "matchLog": [
         {
           "match": "S1-M001",
@@ -487,23 +489,34 @@
   ],
   "formations": [
     {
-      "name": "4-1-2-1-2 Narrow",
-      "matches": 3,
+      "name": "3-5-2",
+      "matches": 4,
       "wins": 2,
-      "draws": 1,
+      "draws": 2,
       "losses": 0,
-      "goalsFor": 6,
-      "goalsAgainst": 2,
-      "shots": 11,
-      "shotsOnTarget": 10,
-      "possession": 141,
-      "passAccuracy": 254,
-      "points": 7,
-      "goalDifference": 4,
-      "goalsPerGame": 2.0,
-      "goalsAllowedPerGame": 0.67,
-      "averagePossession": 47.0,
-      "averagePassAccuracy": 84.7
+      "points": 8,
+      "goalsFor": 7,
+      "goalsAgainst": 4,
+      "goalDifference": 3,
+      "goalsPerGame": 1.75,
+      "goalsAllowedPerGame": 1.0,
+      "averagePossession": null,
+      "averagePassAccuracy": null
+    },
+    {
+      "name": "4-1-2-1-2 Narrow",
+      "matches": 9,
+      "wins": 3,
+      "draws": 2,
+      "losses": 4,
+      "points": 11,
+      "goalsFor": null,
+      "goalsAgainst": null,
+      "goalDifference": null,
+      "goalsPerGame": null,
+      "goalsAllowedPerGame": null,
+      "averagePossession": null,
+      "averagePassAccuracy": null
     },
     {
       "name": "4-3-3 Holding",
@@ -511,56 +524,14 @@
       "wins": 1,
       "draws": 1,
       "losses": 1,
+      "points": 4,
       "goalsFor": 3,
       "goalsAgainst": 7,
-      "shots": 4,
-      "shotsOnTarget": 4,
-      "possession": 144,
-      "passAccuracy": 252,
-      "points": 4,
       "goalDifference": -4,
       "goalsPerGame": 1.0,
       "goalsAllowedPerGame": 2.33,
-      "averagePossession": 48.0,
-      "averagePassAccuracy": 84.0
-    },
-    {
-      "name": "3-5-2",
-      "matches": 1,
-      "wins": 1,
-      "draws": 0,
-      "losses": 0,
-      "goalsFor": 2,
-      "goalsAgainst": 1,
-      "shots": 4,
-      "shotsOnTarget": 3,
-      "possession": 48,
-      "passAccuracy": 82,
-      "points": 3,
-      "goalDifference": 1,
-      "goalsPerGame": 2.0,
-      "goalsAllowedPerGame": 1.0,
-      "averagePossession": 48.0,
-      "averagePassAccuracy": 82.0
-    },
-    {
-      "name": "4-1-2-1-2 Wide",
-      "matches": 1,
-      "wins": 1,
-      "draws": 0,
-      "losses": 0,
-      "goalsFor": 2,
-      "goalsAgainst": 1,
-      "shots": 3,
-      "shotsOnTarget": 3,
-      "possession": 50,
-      "passAccuracy": 84,
-      "points": 3,
-      "goalDifference": 1,
-      "goalsPerGame": 2.0,
-      "goalsAllowedPerGame": 1.0,
-      "averagePossession": 50.0,
-      "averagePassAccuracy": 84.0
+      "averagePossession": null,
+      "averagePassAccuracy": null
     },
     {
       "name": "4-3-3 Attack",
@@ -568,113 +539,63 @@
       "wins": 1,
       "draws": 0,
       "losses": 1,
+      "points": 3,
       "goalsFor": 4,
       "goalsAgainst": 6,
-      "shots": 8,
-      "shotsOnTarget": 7,
-      "possession": 91,
-      "passAccuracy": 170,
-      "points": 3,
       "goalDifference": -2,
       "goalsPerGame": 2.0,
       "goalsAllowedPerGame": 3.0,
-      "averagePossession": 45.5,
-      "averagePassAccuracy": 85.0
+      "averagePossession": null,
+      "averagePassAccuracy": null
+    },
+    {
+      "name": "4-1-2-1-2 Wide",
+      "matches": 1,
+      "wins": 1,
+      "draws": 0,
+      "losses": 0,
+      "points": 3,
+      "goalsFor": 2,
+      "goalsAgainst": 1,
+      "goalDifference": 1,
+      "goalsPerGame": 2.0,
+      "goalsAllowedPerGame": 1.0,
+      "averagePossession": null,
+      "averagePassAccuracy": null
     }
   ],
   "goalkeepers": [
     {
       "name": "Edwin van der Sar",
-      "matches": 10,
-      "saves": 27,
-      "shotsOnTargetFaced": 44,
-      "goalsAllowed": 17,
-      "cleanSheets": 2,
-      "threePlusSaveMatches": 6,
-      "matchLog": [
-        {
-          "match": "S1-M001",
-          "saves": 2,
-          "savePercentage": 66.7,
-          "goalsAllowed": 1
-        },
-        {
-          "match": "S1-M002",
-          "saves": 3,
-          "savePercentage": 60.0,
-          "goalsAllowed": 2
-        },
-        {
-          "match": "S1-M003",
-          "saves": 1,
-          "savePercentage": 20.0,
-          "goalsAllowed": 4
-        },
-        {
-          "match": "S1-M004",
-          "saves": 1,
-          "savePercentage": 50.0,
-          "goalsAllowed": 1
-        },
-        {
-          "match": "S1-M005",
-          "saves": 3,
-          "savePercentage": 100.0,
-          "goalsAllowed": 0
-        },
-        {
-          "match": "S1-M006",
-          "saves": 5,
-          "savePercentage": 45.5,
-          "goalsAllowed": 6
-        },
-        {
-          "match": "S1-M007",
-          "saves": 3,
-          "savePercentage": 75.0,
-          "goalsAllowed": 1
-        },
-        {
-          "match": "S1-M008",
-          "saves": 1,
-          "savePercentage": 100.0,
-          "goalsAllowed": 0
-        },
-        {
-          "match": "S1-M009",
-          "saves": 4,
-          "savePercentage": 80.0,
-          "goalsAllowed": 1
-        },
-        {
-          "match": "S1-M010",
-          "saves": 4,
-          "savePercentage": 80.0,
-          "goalsAllowed": 1
-        }
-      ],
-      "savePercentage": 61.4,
-      "goalsAllowedPerOpponentSOT": 38.6
+      "matches": 20,
+      "saves": 47,
+      "shotsOnTargetFaced": 84,
+      "goalsAllowed": 37,
+      "cleanSheets": 5,
+      "threePlusSaveMatches": null,
+      "savePercentage": 56.0,
+      "goalsAllowedPerOpponentSOT": 44.0,
+      "matchLog": []
     }
   ],
   "captains": [
     {
-      "name": "Federico Dimarco",
-      "starts": 9,
-      "wins": 5,
+      "name": "Christian Pulisic",
+      "starts": 4,
+      "wins": 2,
       "draws": 2,
-      "losses": 2,
-      "goalsFor": 15,
-      "goalsAgainst": 16
+      "losses": 0,
+      "goalsFor": null,
+      "goalsAgainst": null
     },
     {
-      "name": "Christian Pulisic",
-      "starts": 1,
-      "wins": 1,
-      "draws": 0,
-      "losses": 0,
-      "goalsFor": 2,
-      "goalsAgainst": 1
+      "name": "Federico Dimarco",
+      "starts": 16,
+      "wins": 6,
+      "draws": 3,
+      "losses": 7,
+      "goalsFor": null,
+      "goalsAgainst": null
     }
   ],
   "milestones": [
@@ -725,38 +646,51 @@
     {
       "title": "First four-goal match",
       "detail": "S1-M010"
+    },
+    {
+      "title": "First club hat trick",
+      "detail": "David · S1-M020"
+    },
+    {
+      "title": "First three-assist match",
+      "detail": "Lionel Messi · S1-M020"
     }
   ],
   "news": [
     {
-      "title": "Wesley Sneijder shares the scoring lead",
-      "body": "The club's top mark is 4 goals through S1-M010.",
-      "match": "S1-M010"
+      "title": "David writes club history",
+      "body": "David scored M4CROPHAGE's first official hat trick in S1-M020.",
+      "match": "S1-M020"
     },
     {
-      "title": "Christian Pulisic leads the creators",
-      "body": "5 verified assists lead the season.",
-      "match": "S1-M010"
+      "title": "Messi creates three in one match",
+      "body": "Lionel Messi recorded the club's first three-assist performance in S1-M020.",
+      "match": "S1-M020"
     },
     {
-      "title": "Narrow diamond remains unbeaten",
-      "body": "4-1-2-1-2 Narrow is 2-1-0 with six goals scored and two conceded.",
-      "match": "S1-M010"
+      "title": "Mbappé leads the Golden Boot race",
+      "body": "Kylian Mbappé has nine goals through twenty matches.",
+      "match": "S1-M020"
     },
     {
-      "title": "M4CROPHAGE returns to level goal difference",
-      "body": "The 4-1 victory in S1-M010 restored the season goal difference to zero.",
-      "match": "S1-M010"
+      "title": "Messi reaches thirteen assists",
+      "body": "The club's assist leader now has thirteen.",
+      "match": "S1-M020"
     },
     {
-      "title": "Van der Sar reaches two clean sheets",
-      "body": "The goalkeeper has 27 credited saves and six matches with at least three.",
-      "match": "S1-M010"
+      "title": "Pulisic remains unbeaten as captain",
+      "body": "M4CROPHAGE is 2-2-0 in Pulisic's four captain starts.",
+      "match": "S1-M020"
     },
     {
-      "title": "David emerges as an impact contributor",
-      "body": "David has produced two goals and one assist.",
-      "match": "S1-M010"
+      "title": "Returning 3-5-2 steadies the club",
+      "body": "The formation is unbeaten at 2-2-0 with seven goals scored and four conceded.",
+      "match": "S1-M020"
+    },
+    {
+      "title": "Van der Sar reaches five clean sheets",
+      "body": "The goalkeeper has 47 credited saves from 84 opponent shots on target.",
+      "match": "S1-M020"
     }
   ],
   "matches": [
