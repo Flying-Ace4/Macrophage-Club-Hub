@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#040B14">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="M4CROPHAGE">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <title>M4CROPHAGE Club Hub</title>
+  <link rel="manifest" href="manifest.webmanifest?v=1.0.0">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png?v=1.0.0">
+  <link rel="icon" href="favicon-32.png?v=1.0.0">
+  <link rel="stylesheet" href="styles.css?v=1.0.0">
+</head>
+<body>
+  <header class="app-header">
+    <div class="brand-lockup">
+      <img src="macrophage-icon-512.png?v=1.0.0" alt="" class="brand-mark">
+      <div>
+        <strong>M4CROPHAGE</strong>
+        <small>Club Hub · Season One</small>
+      </div>
+    </div>
+    <div class="sync-pill" id="syncPill">Loading</div>
+  </header>
+
+  <main id="app">
+    <section class="screen active" data-screen="home">
+      <article class="hero-card">
+        <div class="hero-kicker">CURRENT CAMPAIGN</div>
+        <div class="hero-row">
+          <div>
+            <h1 id="heroRecord">—</h1>
+            <p id="heroLine">Loading season data…</p>
+          </div>
+          <img src="macrophage-icon-512.png?v=1.0.0" alt="" class="hero-mark">
+        </div>
+      </article>
+
+      <div class="metric-grid" id="homeMetrics"></div>
+
+      <section class="section-card">
+        <div class="section-title"><h2>Club leaders</h2><span id="dataThrough"></span></div>
+        <div class="leader-grid" id="leaderGrid"></div>
+      </section>
+
+      <section class="section-card">
+        <div class="section-title"><h2>Recent form</h2><button data-go="matches">View archive</button></div>
+        <div id="recentMatches"></div>
+      </section>
+
+      <section class="section-card">
+        <div class="section-title"><h2>Current XI</h2><button data-go="club">Club page</button></div>
+        <div class="lineup-grid" id="lineupGrid"></div>
+      </section>
+
+      <section class="section-card">
+        <div class="section-title"><h2>Latest news</h2><button data-go="news">All stories</button></div>
+        <div id="homeNews"></div>
+      </section>
+    </section>
+
+    <section class="screen" data-screen="matches">
+      <div class="page-heading"><span>MATCH CENTRE</span><h1>Season archive</h1><p>Every verified result, note, and event.</p></div>
+      <div class="filter-row" id="matchFilters">
+        <button class="chip active" data-result="ALL">All</button>
+        <button class="chip" data-result="W">Wins</button>
+        <button class="chip" data-result="D">Draws</button>
+        <button class="chip" data-result="L">Losses</button>
+      </div>
+      <div id="matchArchive"></div>
+    </section>
+
+    <section class="screen" data-screen="players">
+      <div class="page-heading"><span>SQUAD</span><h1>Player dossiers</h1><p>Production, roles, and season timelines.</p></div>
+      <div class="filter-row" id="playerSorts">
+        <button class="chip active" data-sort="gva">GVA</button>
+        <button class="chip" data-sort="goals">Goals</button>
+        <button class="chip" data-sort="assists">Assists</button>
+        <button class="chip" data-sort="name">Name</button>
+      </div>
+      <div id="playerArchive"></div>
+    </section>
+
+    <section class="screen" data-screen="analytics">
+      <div class="page-heading"><span>ANALYTICS LAB</span><h1>Performance</h1><p>Formations, goalkeeping, and captaincy.</p></div>
+      <section class="section-card"><div class="section-title"><h2>Formation report</h2></div><div id="formationAnalytics"></div></section>
+      <section class="section-card"><div class="section-title"><h2>Goalkeeper centre</h2></div><div id="goalkeeperAnalytics"></div></section>
+      <section class="section-card"><div class="section-title"><h2>Captaincy</h2></div><div id="captainAnalytics"></div></section>
+    </section>
+
+    <section class="screen" data-screen="news">
+      <div class="page-heading"><span>NEWSROOM</span><h1>Club news</h1><p>Generated only from verified archive events.</p></div>
+      <div id="newsArchive"></div>
+    </section>
+
+    <section class="screen" data-screen="club">
+      <div class="club-banner">
+        <img src="macrophage-icon-512.png?v=1.0.0" alt="M4CROPHAGE crest">
+        <h1>M4CROPHAGE</h1>
+        <p>Defend. Engulf. Dominate.</p>
+      </div>
+      <section class="section-card"><div class="section-title"><h2>Club identity</h2></div><div id="clubIdentity"></div></section>
+      <section class="section-card"><div class="section-title"><h2>Milestones</h2></div><div id="milestoneGrid"></div></section>
+      <section class="section-card"><div class="section-title"><h2>Trophy cabinet</h2></div><div class="empty-state">Season One is still writing the first plaque.</div></section>
+    </section>
+  </main>
+
+  <nav class="bottom-nav">
+    <button class="nav-button active" data-target="home"><svg viewBox="0 0 24 24"><path d="M3 11.5 12 4l9 7.5v8a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></svg><span>Home</span></button>
+    <button class="nav-button" data-target="matches"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="M8 5v14M16 5v14"/></svg><span>Matches</span></button>
+    <button class="nav-button" data-target="players"><svg viewBox="0 0 24 24"><path d="m8 4 4 2 4-2 4 3-2 4v9H6v-9L4 7z"/><path d="M9 6v4h6V6"/></svg><span>Players</span></button>
+    <button class="nav-button" data-target="analytics"><svg viewBox="0 0 24 24"><path d="M4 19V9M10 19V5M16 19v-7M22 19H2"/></svg><span>Analytics</span></button>
+    <button class="nav-button" data-target="club"><svg viewBox="0 0 24 24"><path d="M12 3 4 6v6c0 5 3.4 8 8 9 4.6-1 8-4 8-9V6z"/><path d="M8 10h8M8 14h8"/></svg><span>Club</span></button>
+  </nav>
+
+  <dialog id="detailDialog"><div class="dialog-card"><button class="dialog-close" id="closeDialog">×</button><div id="detailContent"></div></div></dialog>
+  <script src="app.js?v=1.0.0"></script>
+</body>
+</html>

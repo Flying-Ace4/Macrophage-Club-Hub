@@ -1,0 +1,22 @@
+{
+  "name": "M4CROPHAGE Club Hub",
+  "short_name": "M4CROPHAGE",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#040B14",
+  "theme_color": "#040B14",
+  "icons": [
+    {
+      "src": "macrophage-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "macrophage-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

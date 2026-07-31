@@ -1,0 +1,18 @@
+Upload every file in this ZIP directly to the repository root.
+
+Replace:
+index.html
+404.html
+app.js
+styles.css
+manifest.webmanifest
+
+Add:
+season-one.json
+apple-touch-icon.png
+favicon-32.png
+macrophage-icon-192.png
+macrophage-icon-512.png
+macrophage-icon-1024.png
+
+After committing, wait 1–2 minutes and refresh the live site.
