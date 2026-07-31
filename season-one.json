@@ -1,14 +1,15 @@
 {
   "meta": {
     "appName": "M4CROPHAGE Club Hub",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "season": "Season One",
     "legacyName": "FlyingAce4",
     "startingDivision": "Legend V",
-    "dataThrough": "S1-M020",
-    "matchCount": 20,
-    "detailedMatchesThrough": "S1-M010",
-    "aggregateDataThrough": "S1-M020"
+    "dataThrough": "S1-M028",
+    "matchCount": 28,
+    "detailedMatchesThrough": "S1-M028",
+    "aggregateDataThrough": "S1-M028",
+    "source": "M4CROPHAGE Season One Audit Through S1-M028"
   },
   "branding": {
     "clubName": "M4CROPHAGE",
@@ -20,147 +21,56 @@
     "surface": "#0A1727"
   },
   "current": {
-    "nextMatch": "S1-M021",
-    "formation": "3-5-2",
-    "captain": "Christian Pulisic",
-    "unbeatenRun": 5
+    "nextMatch": "S1-M029",
+    "formation": "3-4-3 Flat",
+    "captain": "Federico Dimarco",
+    "unbeatenRun": 2
   },
-  "currentXI": [
-    {
-      "position": "ST",
-      "name": "Lionel Messi",
-      "ovr": null
-    },
-    {
-      "position": "ST",
-      "name": "Kylian Mbappé",
-      "ovr": null
-    },
-    {
-      "position": "CAM",
-      "name": "Wesley Sneijder",
-      "ovr": null
-    },
-    {
-      "position": "LM",
-      "name": "Jude Bellingham",
-      "ovr": null
-    },
-    {
-      "position": "CDM",
-      "name": "Ruud Gullit",
-      "ovr": null
-    },
-    {
-      "position": "CDM",
-      "name": "Declan Rice",
-      "ovr": null
-    },
-    {
-      "position": "RM",
-      "name": "Christian Pulisic",
-      "ovr": null,
-      "captain": true
-    },
-    {
-      "position": "LCB",
-      "name": "Rafael Márquez",
-      "ovr": null
-    },
-    {
-      "position": "CB",
-      "name": "Micky van de Ven",
-      "ovr": null
-    },
-    {
-      "position": "RCB",
-      "name": "Dayot Upamecano",
-      "ovr": null
-    },
-    {
-      "position": "GK",
-      "name": "Edwin van der Sar",
-      "ovr": null
-    }
-  ],
+  "currentXI": [],
   "season": {
     "record": {
-      "wins": 8,
-      "draws": 5,
-      "losses": 7
+      "wins": 9,
+      "draws": 9,
+      "losses": 10
     },
-    "points": 29,
-    "goalsFor": 34,
-    "goalsAgainst": 37,
-    "goalDifference": -3,
-    "shots": null,
-    "shotsOnTarget": null,
-    "opponentShots": null,
-    "opponentShotsOnTarget": 84,
-    "averagePossession": null,
-    "averagePassAccuracy": null,
-    "cleanSheets": 5,
-    "matchesScoring": null
+    "points": 36,
+    "goalsFor": 38,
+    "goalsAgainst": 45,
+    "goalDifference": -7,
+    "shots": 96,
+    "shotsOnTarget": 78,
+    "opponentShots": 146,
+    "opponentShotsOnTarget": 111,
+    "averagePossession": 45.4,
+    "averagePassAccuracy": 79.4,
+    "cleanSheets": 7,
+    "matchesScoring": 21
   },
   "leaders": {
     "topScorer": {
       "name": "Kylian Mbappé",
-      "value": 9
+      "value": 11
     },
     "assistLeader": {
       "name": "Lionel Messi",
       "value": 13
     },
     "gvaLeader": {
-      "name": "Wesley Sneijder",
-      "value": 6
+      "name": "Kylian Mbappé",
+      "value": 7
     }
   },
   "players": [
     {
-      "name": "Wesley Sneijder",
-      "position": "CAM",
-      "ovr": 126,
-      "status": "Starter",
-      "startsVerified": 2,
-      "subsVerified": 0,
-      "goals": 5,
-      "assists": 1,
-      "gva": 6,
-      "captainStarts": 0,
-      "matchLog": [
-        {
-          "match": "S1-M001",
-          "type": "Goal",
-          "detail": "15’ · 2 GVA"
-        },
-        {
-          "match": "S1-M002",
-          "type": "Goal",
-          "detail": "45+3’ · 2 GVA"
-        },
-        {
-          "match": "S1-M004",
-          "type": "Goal",
-          "detail": "25’ · 2 GVA"
-        },
-        {
-          "match": "S1-M010",
-          "type": "Goal",
-          "detail": "50’ · 0 GVA"
-        }
-      ]
-    },
-    {
       "name": "Kylian Mbappé",
       "position": "ST",
-      "ovr": 127,
-      "status": "Starter",
-      "startsVerified": 2,
+      "ovr": null,
+      "status": "Squad",
+      "startsVerified": 0,
       "subsVerified": 0,
-      "goals": 9,
-      "assists": 4,
-      "gva": 4,
+      "goals": 11,
+      "assists": 5,
+      "gva": 7,
       "captainStarts": 0,
       "matchLog": [
         {
@@ -197,15 +107,171 @@
           "match": "S1-M010",
           "type": "Assist",
           "detail": "1 recorded"
+        },
+        {
+          "match": "S1-M012",
+          "type": "Goal",
+          "detail": "14’ · 0 GVA"
+        },
+        {
+          "match": "S1-M012",
+          "type": "Assist",
+          "detail": "1 recorded"
+        },
+        {
+          "match": "S1-M013",
+          "type": "Goal",
+          "detail": "55’ · 0 GVA"
+        },
+        {
+          "match": "S1-M015",
+          "type": "Goal",
+          "detail": "45+3’ · 1 GVA"
+        },
+        {
+          "match": "S1-M016",
+          "type": "Goal",
+          "detail": "77’ · 0 GVA"
+        },
+        {
+          "match": "S1-M018",
+          "type": "Goal",
+          "detail": "63’ · 0 GVA"
+        },
+        {
+          "match": "S1-M022",
+          "type": "Goal",
+          "detail": "30’ · 1 GVA"
+        },
+        {
+          "match": "S1-M023",
+          "type": "Goal",
+          "detail": "21’ · 1 GVA"
+        },
+        {
+          "match": "S1-M024",
+          "type": "Assist",
+          "detail": "1 recorded"
         }
-      ]
+      ],
+      "auditStatus": "Verified from goal/assist log"
+    },
+    {
+      "name": "Wesley Sneijder",
+      "position": "CAM",
+      "ovr": null,
+      "status": "Squad",
+      "startsVerified": 0,
+      "subsVerified": 0,
+      "goals": 5,
+      "assists": 3,
+      "gva": 6,
+      "captainStarts": 0,
+      "matchLog": [
+        {
+          "match": "S1-M001",
+          "type": "Goal",
+          "detail": "15’ · 2 GVA"
+        },
+        {
+          "match": "S1-M002",
+          "type": "Goal",
+          "detail": "45+3’ · 2 GVA"
+        },
+        {
+          "match": "S1-M004",
+          "type": "Goal",
+          "detail": "25’ · 2 GVA"
+        },
+        {
+          "match": "S1-M010",
+          "type": "Goal",
+          "detail": "50’ · 0 GVA"
+        },
+        {
+          "match": "S1-M014",
+          "type": "Assist",
+          "detail": "1 recorded"
+        },
+        {
+          "match": "S1-M018",
+          "type": "Goal",
+          "detail": "51’ · 0 GVA"
+        },
+        {
+          "match": "S1-M023",
+          "type": "Assist",
+          "detail": "1 recorded"
+        },
+        {
+          "match": "S1-M024",
+          "type": "Assist",
+          "detail": "1 recorded"
+        }
+      ],
+      "auditStatus": "Verified from goal/assist log"
+    },
+    {
+      "name": "David",
+      "position": "ST",
+      "ovr": null,
+      "status": "Squad",
+      "startsVerified": 0,
+      "subsVerified": 0,
+      "goals": 6,
+      "assists": 2,
+      "gva": 4,
+      "captainStarts": 0,
+      "matchLog": [
+        {
+          "match": "S1-M003",
+          "type": "Goal",
+          "detail": "74’ · 0 GVA"
+        },
+        {
+          "match": "S1-M009",
+          "type": "Goal",
+          "detail": "64’ · 1 GVA"
+        },
+        {
+          "match": "S1-M010",
+          "type": "Assist",
+          "detail": "1 recorded"
+        },
+        {
+          "match": "S1-M011",
+          "type": "Assist",
+          "detail": "1 recorded"
+        },
+        {
+          "match": "S1-M012",
+          "type": "Goal",
+          "detail": "64’ · 0 GVA"
+        },
+        {
+          "match": "S1-M020",
+          "type": "Goal",
+          "detail": "72’ · 1 GVA"
+        },
+        {
+          "match": "S1-M020",
+          "type": "Goal",
+          "detail": "83’ · 1 GVA"
+        },
+        {
+          "match": "S1-M020",
+          "type": "Goal",
+          "detail": "89’ · 1 GVA"
+        }
+      ],
+      "auditStatus": "Verified from goal/assist log"
     },
     {
       "name": "Jude Bellingham",
-      "position": "RCM",
-      "ovr": 126,
-      "status": "Starter",
-      "startsVerified": 2,
+      "position": "CM",
+      "ovr": null,
+      "status": "Squad",
+      "startsVerified": 0,
       "subsVerified": 0,
       "goals": 3,
       "assists": 2,
@@ -226,15 +292,26 @@
           "match": "S1-M010",
           "type": "Assist",
           "detail": "1 recorded"
+        },
+        {
+          "match": "S1-M014",
+          "type": "Goal",
+          "detail": "15’ · 0 GVA"
+        },
+        {
+          "match": "S1-M017",
+          "type": "Assist",
+          "detail": "1 recorded"
         }
-      ]
+      ],
+      "auditStatus": "Verified from goal/assist log"
     },
     {
       "name": "Lionel Messi",
       "position": "ST",
-      "ovr": 126,
-      "status": "Starter",
-      "startsVerified": 2,
+      "ovr": null,
+      "status": "Squad",
+      "startsVerified": 0,
       "subsVerified": 0,
       "goals": 5,
       "assists": 13,
@@ -265,15 +342,61 @@
           "match": "S1-M010",
           "type": "Goal",
           "detail": "37’ · 0 GVA"
+        },
+        {
+          "match": "S1-M012",
+          "type": "Goal",
+          "detail": "39’ · 0 GVA"
+        },
+        {
+          "match": "S1-M012",
+          "type": "Goal",
+          "detail": "45+5’ · 0 GVA"
+        },
+        {
+          "match": "S1-M012",
+          "type": "Assist",
+          "detail": "1 recorded"
+        },
+        {
+          "match": "S1-M013",
+          "type": "Assist",
+          "detail": "1 recorded"
+        },
+        {
+          "match": "S1-M014",
+          "type": "Assist",
+          "detail": "1 recorded"
+        },
+        {
+          "match": "S1-M015",
+          "type": "Assist",
+          "detail": "1 recorded"
+        },
+        {
+          "match": "S1-M017",
+          "type": "Goal",
+          "detail": "60’ · 0 GVA"
+        },
+        {
+          "match": "S1-M018",
+          "type": "Assist",
+          "detail": "2 recorded"
+        },
+        {
+          "match": "S1-M020",
+          "type": "Assist",
+          "detail": "3 recorded"
         }
-      ]
+      ],
+      "auditStatus": "Verified from goal/assist log"
     },
     {
       "name": "Ruud Gullit",
-      "position": "LCM",
-      "ovr": 125,
-      "status": "Starter",
-      "startsVerified": 2,
+      "position": "CM",
+      "ovr": null,
+      "status": "Squad",
+      "startsVerified": 0,
       "subsVerified": 0,
       "goals": 3,
       "assists": 2,
@@ -294,15 +417,26 @@
           "match": "S1-M010",
           "type": "Goal",
           "detail": "71’ · 0 GVA"
+        },
+        {
+          "match": "S1-M012",
+          "type": "Assist",
+          "detail": "1 recorded"
+        },
+        {
+          "match": "S1-M014",
+          "type": "Goal",
+          "detail": "34’ · 0 GVA"
         }
-      ]
+      ],
+      "auditStatus": "Verified from goal/assist log"
     },
     {
       "name": "Khvicha Kvaratskhelia",
       "position": "LW",
       "ovr": null,
       "status": "Squad",
-      "startsVerified": 1,
+      "startsVerified": 0,
       "subsVerified": 0,
       "goals": 1,
       "assists": 1,
@@ -319,48 +453,60 @@
           "type": "Assist",
           "detail": "1 recorded"
         }
-      ]
+      ],
+      "auditStatus": "Verified from goal/assist log"
     },
     {
-      "name": "David",
-      "position": "ST",
+      "name": "Declan Rice",
+      "position": "CDM",
       "ovr": null,
-      "status": "Rotation",
+      "status": "Squad",
       "startsVerified": 0,
-      "subsVerified": 1,
-      "goals": 6,
-      "assists": 2,
-      "gva": 1,
+      "subsVerified": 0,
+      "goals": 1,
+      "assists": 0,
+      "gva": 2,
       "captainStarts": 0,
       "matchLog": [
         {
-          "match": "S1-M003",
+          "match": "S1-M024",
           "type": "Goal",
-          "detail": "74’ · 0 GVA"
-        },
-        {
-          "match": "S1-M009",
-          "type": "Goal",
-          "detail": "64’ · 1 GVA"
-        },
-        {
-          "match": "S1-M010",
-          "type": "Assist",
-          "detail": "1 recorded"
+          "detail": "69’ · 2 GVA"
         }
-      ]
+      ],
+      "auditStatus": "Verified from goal/assist log"
+    },
+    {
+      "name": "Lamine Yamal",
+      "position": "RM",
+      "ovr": null,
+      "status": "Squad",
+      "startsVerified": 0,
+      "subsVerified": 0,
+      "goals": 1,
+      "assists": 0,
+      "gva": 2,
+      "captainStarts": 0,
+      "matchLog": [
+        {
+          "match": "S1-M024",
+          "type": "Goal",
+          "detail": "22’ · 2 GVA"
+        }
+      ],
+      "auditStatus": "Verified from goal/assist log"
     },
     {
       "name": "Christian Pulisic",
-      "position": "RW",
+      "position": "RM",
       "ovr": null,
       "status": "Captain",
-      "startsVerified": 1,
-      "subsVerified": 1,
+      "startsVerified": 0,
+      "subsVerified": 0,
       "goals": 2,
       "assists": 6,
       "gva": 0,
-      "captainStarts": 4,
+      "captainStarts": 7,
       "matchLog": [
         {
           "match": "S1-M001",
@@ -386,8 +532,24 @@
           "match": "S1-M010",
           "type": "Assist",
           "detail": "1 recorded"
+        },
+        {
+          "match": "S1-M011",
+          "type": "Goal",
+          "detail": "90+2’ · 0 GVA"
+        },
+        {
+          "match": "S1-M012",
+          "type": "Assist",
+          "detail": "1 recorded"
+        },
+        {
+          "match": "S1-M013",
+          "type": "Goal",
+          "detail": "78’ · 0 GVA"
         }
-      ]
+      ],
+      "auditStatus": "Verified from goal/assist log"
     },
     {
       "name": "Martin Ødegaard",
@@ -397,7 +559,7 @@
       "startsVerified": 0,
       "subsVerified": 0,
       "goals": 0,
-      "assists": 1,
+      "assists": 3,
       "gva": 0,
       "captainStarts": 0,
       "matchLog": [
@@ -405,148 +567,92 @@
           "match": "S1-M007",
           "type": "Assist",
           "detail": "1 recorded"
+        },
+        {
+          "match": "S1-M013",
+          "type": "Assist",
+          "detail": "1 recorded"
+        },
+        {
+          "match": "S1-M016",
+          "type": "Assist",
+          "detail": "1 recorded"
         }
-      ]
-    },
-    {
-      "name": "Dayot Upamecano",
-      "position": "RCB",
-      "ovr": 126,
-      "status": "Starter",
-      "startsVerified": 0,
-      "subsVerified": 0,
-      "goals": 0,
-      "assists": 0,
-      "gva": 0,
-      "captainStarts": 0,
-      "matchLog": []
-    },
-    {
-      "name": "Declan Rice",
-      "position": "CDM",
-      "ovr": 125,
-      "status": "Starter",
-      "startsVerified": 0,
-      "subsVerified": 0,
-      "goals": 0,
-      "assists": 0,
-      "gva": 0,
-      "captainStarts": 0,
-      "matchLog": []
+      ],
+      "auditStatus": "Verified from goal/assist log"
     },
     {
       "name": "Edwin van der Sar",
       "position": "GK",
-      "ovr": 125,
-      "status": "Starter",
-      "startsVerified": 10,
+      "ovr": null,
+      "status": "Goalkeeper",
+      "startsVerified": 0,
       "subsVerified": 0,
       "goals": 0,
       "assists": 0,
       "gva": 0,
-      "captainStarts": 0,
+      "captainStarts": 3,
       "matchLog": []
     },
     {
       "name": "Federico Dimarco",
       "position": "LB",
-      "ovr": 124,
-      "status": "Captain",
-      "startsVerified": 1,
-      "subsVerified": 0,
-      "goals": 0,
-      "assists": 0,
-      "gva": 0,
-      "captainStarts": 9,
-      "matchLog": []
-    },
-    {
-      "name": "Micky van de Ven",
-      "position": "LCB",
-      "ovr": 124,
-      "status": "Starter",
+      "ovr": null,
+      "status": "Squad",
       "startsVerified": 0,
       "subsVerified": 0,
       "goals": 0,
       "assists": 0,
       "gva": 0,
-      "captainStarts": 0,
-      "matchLog": []
-    },
-    {
-      "name": "Pedro Porro",
-      "position": "RB",
-      "ovr": 125,
-      "status": "Starter",
-      "startsVerified": 0,
-      "subsVerified": 0,
-      "goals": 0,
-      "assists": 0,
-      "gva": 0,
-      "captainStarts": 0,
+      "captainStarts": 18,
       "matchLog": []
     }
   ],
   "formations": [
     {
       "name": "3-5-2",
-      "matches": 4,
-      "wins": 2,
-      "draws": 2,
-      "losses": 0,
-      "points": 8,
-      "goalsFor": 7,
-      "goalsAgainst": 4,
-      "goalDifference": 3,
-      "goalsPerGame": 1.75,
-      "goalsAllowedPerGame": 1.0,
-      "averagePossession": null,
-      "averagePassAccuracy": null
+      "matches": 9,
+      "wins": 3,
+      "draws": 4,
+      "losses": 2,
+      "points": 13,
+      "goalsFor": 11,
+      "goalsAgainst": 11,
+      "goalDifference": 0,
+      "goalsPerGame": 1.22,
+      "goalsAllowedPerGame": 1.22,
+      "averagePossession": 45.8,
+      "averagePassAccuracy": 77.4
     },
     {
       "name": "4-1-2-1-2 Narrow",
-      "matches": 9,
+      "matches": 10,
       "wins": 3,
       "draws": 2,
-      "losses": 4,
+      "losses": 5,
       "points": 11,
-      "goalsFor": null,
-      "goalsAgainst": null,
-      "goalDifference": null,
-      "goalsPerGame": null,
-      "goalsAllowedPerGame": null,
-      "averagePossession": null,
-      "averagePassAccuracy": null
+      "goalsFor": 18,
+      "goalsAgainst": 19,
+      "goalDifference": -1,
+      "goalsPerGame": 1.8,
+      "goalsAllowedPerGame": 1.9,
+      "averagePossession": 45.3,
+      "averagePassAccuracy": 78.6
     },
     {
       "name": "4-3-3 Holding",
-      "matches": 3,
+      "matches": 4,
       "wins": 1,
-      "draws": 1,
+      "draws": 2,
       "losses": 1,
-      "points": 4,
+      "points": 5,
       "goalsFor": 3,
       "goalsAgainst": 7,
       "goalDifference": -4,
-      "goalsPerGame": 1.0,
-      "goalsAllowedPerGame": 2.33,
-      "averagePossession": null,
-      "averagePassAccuracy": null
-    },
-    {
-      "name": "4-3-3 Attack",
-      "matches": 2,
-      "wins": 1,
-      "draws": 0,
-      "losses": 1,
-      "points": 3,
-      "goalsFor": 4,
-      "goalsAgainst": 6,
-      "goalDifference": -2,
-      "goalsPerGame": 2.0,
-      "goalsAllowedPerGame": 3.0,
-      "averagePossession": null,
-      "averagePassAccuracy": null
+      "goalsPerGame": 0.75,
+      "goalsAllowedPerGame": 1.75,
+      "averagePossession": 46.5,
+      "averagePassAccuracy": 84.2
     },
     {
       "name": "4-1-2-1-2 Wide",
@@ -560,42 +666,265 @@
       "goalDifference": 1,
       "goalsPerGame": 2.0,
       "goalsAllowedPerGame": 1.0,
-      "averagePossession": null,
-      "averagePassAccuracy": null
+      "averagePossession": 50.0,
+      "averagePassAccuracy": 84.0
+    },
+    {
+      "name": "4-3-3 Attack",
+      "matches": 2,
+      "wins": 1,
+      "draws": 0,
+      "losses": 1,
+      "points": 3,
+      "goalsFor": 4,
+      "goalsAgainst": 6,
+      "goalDifference": -2,
+      "goalsPerGame": 2.0,
+      "goalsAllowedPerGame": 3.0,
+      "averagePossession": 45.5,
+      "averagePassAccuracy": 85.0
+    },
+    {
+      "name": "3-4-3 Flat",
+      "matches": 1,
+      "wins": 0,
+      "draws": 1,
+      "losses": 0,
+      "points": 1,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDifference": 0,
+      "goalsPerGame": 0.0,
+      "goalsAllowedPerGame": 0.0,
+      "averagePossession": 45.0,
+      "averagePassAccuracy": 75.0
+    },
+    {
+      "name": "4-2-3-1 Wide",
+      "matches": 1,
+      "wins": 0,
+      "draws": 0,
+      "losses": 1,
+      "points": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 1,
+      "goalDifference": -1,
+      "goalsPerGame": 0.0,
+      "goalsAllowedPerGame": 1.0,
+      "averagePossession": 34.0,
+      "averagePassAccuracy": 74.0
     }
   ],
   "goalkeepers": [
     {
       "name": "Edwin van der Sar",
-      "matches": 20,
-      "saves": 47,
-      "shotsOnTargetFaced": 84,
-      "goalsAllowed": 37,
-      "cleanSheets": 5,
-      "threePlusSaveMatches": null,
-      "savePercentage": 56.0,
-      "goalsAllowedPerOpponentSOT": 44.0,
-      "matchLog": []
+      "matches": 28,
+      "saves": 66,
+      "shotsOnTargetFaced": 111,
+      "goalsAllowed": 45,
+      "cleanSheets": 7,
+      "threePlusSaveMatches": 14,
+      "savePercentage": 59.5,
+      "goalsAllowedPerOpponentSOT": 40.5,
+      "matchLog": [
+        {
+          "match": "S1-M001",
+          "saves": 2,
+          "savePercentage": 66.7,
+          "goalsAllowed": 1
+        },
+        {
+          "match": "S1-M002",
+          "saves": 3,
+          "savePercentage": 60.0,
+          "goalsAllowed": 2
+        },
+        {
+          "match": "S1-M003",
+          "saves": 1,
+          "savePercentage": 20.0,
+          "goalsAllowed": 4
+        },
+        {
+          "match": "S1-M004",
+          "saves": 1,
+          "savePercentage": 50.0,
+          "goalsAllowed": 1
+        },
+        {
+          "match": "S1-M005",
+          "saves": 3,
+          "savePercentage": 100.0,
+          "goalsAllowed": 0
+        },
+        {
+          "match": "S1-M006",
+          "saves": 5,
+          "savePercentage": 45.5,
+          "goalsAllowed": 6
+        },
+        {
+          "match": "S1-M007",
+          "saves": 3,
+          "savePercentage": 75.0,
+          "goalsAllowed": 1
+        },
+        {
+          "match": "S1-M008",
+          "saves": 1,
+          "savePercentage": 100.0,
+          "goalsAllowed": 0
+        },
+        {
+          "match": "S1-M009",
+          "saves": 4,
+          "savePercentage": 80.0,
+          "goalsAllowed": 1
+        },
+        {
+          "match": "S1-M010",
+          "saves": 4,
+          "savePercentage": 80.0,
+          "goalsAllowed": 1
+        },
+        {
+          "match": "S1-M011",
+          "saves": 3,
+          "savePercentage": 60.0,
+          "goalsAllowed": 2
+        },
+        {
+          "match": "S1-M012",
+          "saves": 1,
+          "savePercentage": 100.0,
+          "goalsAllowed": 0
+        },
+        {
+          "match": "S1-M013",
+          "saves": 4,
+          "savePercentage": 57.1,
+          "goalsAllowed": 3
+        },
+        {
+          "match": "S1-M014",
+          "saves": 1,
+          "savePercentage": 25.0,
+          "goalsAllowed": 3
+        },
+        {
+          "match": "S1-M015",
+          "saves": 2,
+          "savePercentage": 66.7,
+          "goalsAllowed": 1
+        },
+        {
+          "match": "S1-M016",
+          "saves": 3,
+          "savePercentage": 42.9,
+          "goalsAllowed": 4
+        },
+        {
+          "match": "S1-M017",
+          "saves": 2,
+          "savePercentage": 33.3,
+          "goalsAllowed": 4
+        },
+        {
+          "match": "S1-M018",
+          "saves": 1,
+          "savePercentage": 100.0,
+          "goalsAllowed": 0
+        },
+        {
+          "match": "S1-M019",
+          "saves": 0,
+          "savePercentage": 0.0,
+          "goalsAllowed": 0
+        },
+        {
+          "match": "S1-M020",
+          "saves": 3,
+          "savePercentage": 50.0,
+          "goalsAllowed": 3
+        },
+        {
+          "match": "S1-M021",
+          "saves": 2,
+          "savePercentage": 50.0,
+          "goalsAllowed": 2
+        },
+        {
+          "match": "S1-M022",
+          "saves": 1,
+          "savePercentage": 50.0,
+          "goalsAllowed": 1
+        },
+        {
+          "match": "S1-M023",
+          "saves": 0,
+          "savePercentage": 0.0,
+          "goalsAllowed": 1
+        },
+        {
+          "match": "S1-M024",
+          "saves": 1,
+          "savePercentage": 50.0,
+          "goalsAllowed": 1
+        },
+        {
+          "match": "S1-M025",
+          "saves": 3,
+          "savePercentage": 75.0,
+          "goalsAllowed": 1
+        },
+        {
+          "match": "S1-M026",
+          "saves": 4,
+          "savePercentage": 66.7,
+          "goalsAllowed": 2
+        },
+        {
+          "match": "S1-M027",
+          "saves": 3,
+          "savePercentage": 100.0,
+          "goalsAllowed": 0
+        },
+        {
+          "match": "S1-M028",
+          "saves": 5,
+          "savePercentage": 100.0,
+          "goalsAllowed": 0
+        }
+      ]
     }
   ],
   "captains": [
     {
       "name": "Christian Pulisic",
-      "starts": 4,
+      "starts": 7,
       "wins": 2,
-      "draws": 2,
-      "losses": 0,
-      "goalsFor": null,
-      "goalsAgainst": null
+      "draws": 4,
+      "losses": 1,
+      "goalsFor": 9,
+      "goalsAgainst": 8
     },
     {
       "name": "Federico Dimarco",
-      "starts": 16,
+      "starts": 18,
       "wins": 6,
-      "draws": 3,
+      "draws": 5,
       "losses": 7,
-      "goalsFor": null,
-      "goalsAgainst": null
+      "goalsFor": 27,
+      "goalsAgainst": 33
+    },
+    {
+      "name": "Edwin van der Sar",
+      "starts": 3,
+      "wins": 1,
+      "draws": 0,
+      "losses": 2,
+      "goalsFor": 2,
+      "goalsAgainst": 4
     }
   ],
   "milestones": [
@@ -604,44 +933,16 @@
       "detail": "Wesley Sneijder · S1-M001"
     },
     {
-      "title": "First assist",
-      "detail": "Kylian Mbappé · S1-M001"
-    },
-    {
-      "title": "First match-winning goal",
-      "detail": "Ruud Gullit · S1-M001"
-    },
-    {
       "title": "First two-goal comeback",
       "detail": "S1-M002 · 0-2 to 3-2"
-    },
-    {
-      "title": "First defeat",
-      "detail": "S1-M003"
-    },
-    {
-      "title": "First draw",
-      "detail": "S1-M005"
     },
     {
       "title": "First clean sheet",
       "detail": "S1-M005"
     },
     {
-      "title": "First scoreless match",
-      "detail": "S1-M005"
-    },
-    {
       "title": "Largest defeat",
       "detail": "1-6 vs Cookie · S1-M006"
-    },
-    {
-      "title": "Messi's first archive goal",
-      "detail": "S1-M008"
-    },
-    {
-      "title": "Largest win",
-      "detail": "4-1 vs maycol · S1-M010"
     },
     {
       "title": "First four-goal match",
@@ -654,43 +955,51 @@
     {
       "title": "First three-assist match",
       "detail": "Lionel Messi · S1-M020"
+    },
+    {
+      "title": "Lamine Yamal first goal",
+      "detail": "S1-M024"
+    },
+    {
+      "title": "First 3-4-3 Flat match",
+      "detail": "S1-M028"
     }
   ],
   "news": [
     {
-      "title": "David writes club history",
-      "body": "David scored M4CROPHAGE's first official hat trick in S1-M020.",
-      "match": "S1-M020"
+      "title": "Mbappé takes both major scoring crowns",
+      "body": "Kylian Mbappé leads M4CROPHAGE with 11 goals and 7 GVA through S1-M028.",
+      "match": "S1-M028"
     },
     {
-      "title": "Messi creates three in one match",
-      "body": "Lionel Messi recorded the club's first three-assist performance in S1-M020.",
-      "match": "S1-M020"
+      "title": "Messi remains the creative engine",
+      "body": "Lionel Messi leads the club with 13 verified assists.",
+      "match": "S1-M028"
     },
     {
-      "title": "Mbappé leads the Golden Boot race",
-      "body": "Kylian Mbappé has nine goals through twenty matches.",
-      "match": "S1-M020"
+      "title": "Lamine scores on debut night",
+      "body": "Lamine Yamal scored in the 2-1 victory over Maxcovac102 in S1-M024.",
+      "match": "S1-M024"
     },
     {
-      "title": "Messi reaches thirteen assists",
-      "body": "The club's assist leader now has thirteen.",
-      "match": "S1-M020"
+      "title": "Dimarco restores the armband",
+      "body": "Federico Dimarco captained the two most recent scoreless draws.",
+      "match": "S1-M028"
     },
     {
-      "title": "Pulisic remains unbeaten as captain",
-      "body": "M4CROPHAGE is 2-2-0 in Pulisic's four captain starts.",
-      "match": "S1-M020"
+      "title": "Three straight matches without a goal",
+      "body": "M4CROPHAGE has drawn two scoreless matches after the 0-2 defeat in S1-M026.",
+      "match": "S1-M028"
     },
     {
-      "title": "Returning 3-5-2 steadies the club",
-      "body": "The formation is unbeaten at 2-2-0 with seven goals scored and four conceded.",
-      "match": "S1-M020"
+      "title": "3-4-3 Flat opens with a clean sheet",
+      "body": "The first trial produced a 0-0 draw despite four shots on target.",
+      "match": "S1-M028"
     },
     {
-      "title": "Van der Sar reaches five clean sheets",
-      "body": "The goalkeeper has 47 credited saves from 84 opponent shots on target.",
-      "match": "S1-M020"
+      "title": "Van der Sar reaches seven clean sheets",
+      "body": "The goalkeeper has 66 credited saves from 111 shots on target faced.",
+      "match": "S1-M028"
     }
   ],
   "matches": [
@@ -702,42 +1011,48 @@
       "scoreAgainst": 1,
       "formation": "3-5-2",
       "captain": "Christian Pulisic",
-      "headline": "Sneijder opens the archive; Gullit wins it",
-      "summary": "Season One opened with a 2-1 win. Sneijder scored first and Gullit supplied the winner.",
+      "headline": "M4CROPHAGE defeats Carlitos1981, 2-1",
+      "summary": "M4CROPHAGE recorded a 2-1 win against Carlitos1981 using 3-5-2. Archive opener.",
       "goals": [
         {
           "minute": "15’",
           "scorer": "Wesley Sneijder",
-          "assist": null,
+          "assist": "Christian Pulisic",
+          "origin": "Unknown",
           "gva": 2
         },
         {
           "minute": "65’",
           "scorer": "Ruud Gullit",
-          "assist": null,
+          "assist": "Kylian Mbappé",
+          "origin": "Unknown",
           "gva": 2
         }
       ],
       "recordedAssists": [
         {
-          "player": "Kylian Mbappé",
+          "player": "Christian Pulisic",
           "count": 1
         },
         {
-          "player": "Christian Pulisic",
+          "player": "Kylian Mbappé",
           "count": 1
         }
       ],
-      "assistMappingKnown": false,
+      "assistMappingKnown": true,
       "stats": {
         "shots": 4,
         "shotsOnTarget": 3,
         "opponentShots": 5,
         "opponentShotsOnTarget": 3,
         "possession": 48,
+        "opponentPossession": 52,
         "passAccuracy": 82,
+        "opponentPassAccuracy": 83,
         "fouls": 0,
-        "offsides": 2
+        "opponentFouls": 0,
+        "offsides": 2,
+        "opponentOffsides": 0
       },
       "goalkeeper": {
         "name": "Edwin van der Sar",
@@ -748,14 +1063,11 @@
         "cleanSheet": false
       },
       "notes": [
-        "Season opener",
-        "Opponent equalized at 45+2",
-        "Gullit scored the winner"
+        "Archive opener"
       ],
       "tags": [
-        "Season Opener",
-        "Formation Debut",
-        "Captain Debut"
+        "Win",
+        "3-5-2"
       ]
     },
     {
@@ -766,25 +1078,28 @@
       "scoreAgainst": 2,
       "formation": "4-3-3 Attack",
       "captain": "Federico Dimarco",
-      "headline": "Three unanswered complete the first great comeback",
-      "summary": "M4CROPHAGE recovered from 0-2 down to win 3-2.",
+      "headline": "M4CROPHAGE defeats TheBestIsBarca, 3-2",
+      "summary": "M4CROPHAGE recorded a 3-2 win against TheBestIsBarca using 4-3-3 Attack. Comeback from 0-2.",
       "goals": [
         {
           "minute": "45+3’",
           "scorer": "Wesley Sneijder",
-          "assist": null,
+          "assist": "Lionel Messi",
+          "origin": "Unknown",
           "gva": 2
         },
         {
           "minute": "60’",
           "scorer": "Kylian Mbappé",
-          "assist": null,
+          "assist": "Khvicha Kvaratskhelia",
+          "origin": "Unknown",
           "gva": 2
         },
         {
           "minute": "73’",
           "scorer": "Khvicha Kvaratskhelia",
-          "assist": null,
+          "assist": "Christian Pulisic",
+          "origin": "Unknown",
           "gva": 2
         }
       ],
@@ -802,16 +1117,20 @@
           "count": 1
         }
       ],
-      "assistMappingKnown": false,
+      "assistMappingKnown": true,
       "stats": {
         "shots": 7,
         "shotsOnTarget": 6,
         "opponentShots": 6,
         "opponentShotsOnTarget": 5,
         "possession": 49,
+        "opponentPossession": 51,
         "passAccuracy": 93,
+        "opponentPassAccuracy": 82,
         "fouls": 0,
-        "offsides": 0
+        "opponentFouls": 0,
+        "offsides": 0,
+        "opponentOffsides": 0
       },
       "goalkeeper": {
         "name": "Edwin van der Sar",
@@ -822,31 +1141,30 @@
         "cleanSheet": false
       },
       "notes": [
-        "First comeback from 0-2",
-        "First Dimarco captain start",
-        "Assists confirmed but unmapped"
+        "Comeback from 0-2"
       ],
       "tags": [
-        "Comeback",
-        "Formation Debut",
-        "Captaincy Change"
+        "Win",
+        "4-3-3 Attack",
+        "Comeback"
       ]
     },
     {
       "id": "S1-M003",
-      "opponent": "TONYIRX",
+      "opponent": "TONIYRX",
       "result": "L",
       "scoreFor": 1,
       "scoreAgainst": 4,
       "formation": "4-3-3 Attack",
       "captain": "Federico Dimarco",
-      "headline": "Attack stalls as M4CROPHAGE suffers first defeat",
-      "summary": "M4CROPHAGE managed only one shot in its first defeat.",
+      "headline": "TONIYRX hands M4CROPHAGE a 1-4 defeat",
+      "summary": "M4CROPHAGE recorded a 1-4 loss against TONIYRX using 4-3-3 Attack. David consolation.",
       "goals": [
         {
           "minute": "74’",
           "scorer": "David",
           "assist": "Christian Pulisic",
+          "origin": "Unknown",
           "gva": 0
         }
       ],
@@ -863,9 +1181,13 @@
         "opponentShots": 5,
         "opponentShotsOnTarget": 5,
         "possession": 42,
+        "opponentPossession": 58,
         "passAccuracy": 77,
+        "opponentPassAccuracy": 82,
         "fouls": 0,
-        "offsides": 0
+        "opponentFouls": 1,
+        "offsides": 0,
+        "opponentOffsides": 0
       },
       "goalkeeper": {
         "name": "Edwin van der Sar",
@@ -876,14 +1198,11 @@
         "cleanSheet": false
       },
       "notes": [
-        "First defeat",
-        "David scored his first archive goal",
-        "Only one shot"
+        "David consolation"
       ],
       "tags": [
-        "First Defeat",
-        "David First Goal",
-        "Low Shot Volume"
+        "Loss",
+        "4-3-3 Attack"
       ]
     },
     {
@@ -894,19 +1213,21 @@
       "scoreAgainst": 1,
       "formation": "4-3-3 Holding",
       "captain": "Federico Dimarco",
-      "headline": "Holding formation delivers an immediate response",
-      "summary": "Bellingham and Sneijder scored as 4-3-3 Holding won on debut.",
+      "headline": "M4CROPHAGE defeats Axel_v5, 2-1",
+      "summary": "M4CROPHAGE recorded a 2-1 win against Axel_v5 using 4-3-3 Holding. Controlled win.",
       "goals": [
         {
           "minute": "14’",
           "scorer": "Jude Bellingham",
-          "assist": null,
+          "assist": "Lionel Messi",
+          "origin": "Unknown",
           "gva": 2
         },
         {
           "minute": "25’",
           "scorer": "Wesley Sneijder",
-          "assist": null,
+          "assist": "Lionel Messi",
+          "origin": "Unknown",
           "gva": 2
         }
       ],
@@ -916,16 +1237,20 @@
           "count": 2
         }
       ],
-      "assistMappingKnown": false,
+      "assistMappingKnown": true,
       "stats": {
         "shots": 3,
         "shotsOnTarget": 3,
         "opponentShots": 4,
         "opponentShotsOnTarget": 2,
         "possession": 53,
+        "opponentPossession": 47,
         "passAccuracy": 91,
+        "opponentPassAccuracy": 86,
         "fouls": 0,
-        "offsides": 0
+        "opponentFouls": 0,
+        "offsides": 0,
+        "opponentOffsides": 0
       },
       "goalkeeper": {
         "name": "Edwin van der Sar",
@@ -936,14 +1261,11 @@
         "cleanSheet": false
       },
       "notes": [
-        "Holding debut",
-        "Felt controlled until late",
-        "Messi recorded two unmapped assists"
+        "Controlled win"
       ],
       "tags": [
-        "Formation Debut",
-        "Bounce-Back Win",
-        "Bellingham First Goal"
+        "Win",
+        "4-3-3 Holding"
       ]
     },
     {
@@ -954,8 +1276,8 @@
       "scoreAgainst": 0,
       "formation": "4-3-3 Holding",
       "captain": "Federico Dimarco",
-      "headline": "Holding shape secures the first clean sheet",
-      "summary": "A controlled scoreless draw produced the first clean sheet.",
+      "headline": "M4CROPHAGE and SoulEditz17 finish level",
+      "summary": "M4CROPHAGE recorded a 0-0 draw against SoulEditz17 using 4-3-3 Holding. Comfortable draw.",
       "goals": [],
       "recordedAssists": [],
       "assistMappingKnown": true,
@@ -965,9 +1287,13 @@
         "opponentShots": 3,
         "opponentShotsOnTarget": 3,
         "possession": 46,
+        "opponentPossession": 54,
         "passAccuracy": 81,
+        "opponentPassAccuracy": 87,
         "fouls": 0,
-        "offsides": 0
+        "opponentFouls": 0,
+        "offsides": 0,
+        "opponentOffsides": 1
       },
       "goalkeeper": {
         "name": "Edwin van der Sar",
@@ -978,16 +1304,11 @@
         "cleanSheet": true
       },
       "notes": [
-        "First draw",
-        "First clean sheet",
-        "First scoreless match",
-        "Only one opponent chance felt dangerous"
+        "Comfortable draw"
       ],
       "tags": [
         "Draw",
-        "Clean Sheet",
-        "Scoreless",
-        "Zero Shots"
+        "4-3-3 Holding"
       ]
     },
     {
@@ -998,13 +1319,14 @@
       "scoreAgainst": 6,
       "formation": "4-3-3 Holding",
       "captain": "Federico Dimarco",
-      "headline": "Cookie hands M4CROPHAGE its largest defeat",
-      "summary": "Mbappé scored, but Cookie won 6-1 after producing eleven shots on target.",
+      "headline": "Cookie hands M4CROPHAGE a 1-6 defeat",
+      "summary": "M4CROPHAGE recorded a 1-6 loss against Cookie using 4-3-3 Holding. Heavy defeat.",
       "goals": [
         {
           "minute": "19’",
           "scorer": "Kylian Mbappé",
           "assist": "Lionel Messi",
+          "origin": "Unknown",
           "gva": 0
         }
       ],
@@ -1021,9 +1343,13 @@
         "opponentShots": 13,
         "opponentShotsOnTarget": 11,
         "possession": 45,
+        "opponentPossession": 55,
         "passAccuracy": 80,
-        "fouls": null,
-        "offsides": null
+        "opponentPassAccuracy": 85,
+        "fouls": 0,
+        "opponentFouls": 0,
+        "offsides": 1,
+        "opponentOffsides": 0
       },
       "goalkeeper": {
         "name": "Edwin van der Sar",
@@ -1034,12 +1360,11 @@
         "cleanSheet": false
       },
       "notes": [
-        "Largest defeat",
-        "Opponent formation intentionally not recorded"
+        "Heavy defeat"
       ],
       "tags": [
-        "Largest Defeat",
-        "High Opponent Shot Volume"
+        "Loss",
+        "4-3-3 Holding"
       ]
     },
     {
@@ -1050,19 +1375,21 @@
       "scoreAgainst": 1,
       "formation": "4-1-2-1-2 Wide",
       "captain": "Federico Dimarco",
-      "headline": "Wide diamond debut sparks another comeback",
-      "summary": "Bellingham and Mbappé overturned the deficit as the wide diamond won on debut.",
+      "headline": "M4CROPHAGE defeats DiddyParty, 2-1",
+      "summary": "M4CROPHAGE recorded a 2-1 win against DiddyParty using 4-1-2-1-2 Wide. Wide diamond debut.",
       "goals": [
         {
           "minute": "64’",
           "scorer": "Jude Bellingham",
-          "assist": null,
+          "assist": "Ruud Gullit",
+          "origin": "Unknown",
           "gva": 2
         },
         {
           "minute": "77’",
           "scorer": "Kylian Mbappé",
-          "assist": null,
+          "assist": "Martin Ødegaard",
+          "origin": "Unknown",
           "gva": 2
         }
       ],
@@ -1076,16 +1403,20 @@
           "count": 1
         }
       ],
-      "assistMappingKnown": false,
+      "assistMappingKnown": true,
       "stats": {
         "shots": 3,
         "shotsOnTarget": 3,
         "opponentShots": 4,
         "opponentShotsOnTarget": 4,
         "possession": 50,
+        "opponentPossession": 50,
         "passAccuracy": 84,
-        "fouls": null,
-        "offsides": null
+        "opponentPassAccuracy": 95,
+        "fouls": 1,
+        "opponentFouls": 0,
+        "offsides": 0,
+        "opponentOffsides": 0
       },
       "goalkeeper": {
         "name": "Edwin van der Sar",
@@ -1096,14 +1427,12 @@
         "cleanSheet": false
       },
       "notes": [
-        "Comeback win",
-        "Wide diamond debut",
-        "Assists confirmed but unmapped"
+        "Wide diamond debut"
       ],
       "tags": [
-        "Comeback",
-        "Formation Debut",
-        "Wide Diamond"
+        "Win",
+        "4-1-2-1-2 Wide",
+        "Debut"
       ]
     },
     {
@@ -1114,13 +1443,14 @@
       "scoreAgainst": 0,
       "formation": "4-1-2-1-2 Narrow",
       "captain": "Federico Dimarco",
-      "headline": "Messi opens his account as narrow diamond debuts",
-      "summary": "Messi scored the only goal as the narrow diamond debuted with a clean-sheet victory.",
+      "headline": "M4CROPHAGE defeats isxxd777, 1-0",
+      "summary": "M4CROPHAGE recorded a 1-0 win against isxxd777 using 4-1-2-1-2 Narrow. Messi winner.",
       "goals": [
         {
           "minute": "41’",
           "scorer": "Lionel Messi",
           "assist": "Kylian Mbappé",
+          "origin": "Unknown",
           "gva": 2
         }
       ],
@@ -1137,9 +1467,13 @@
         "opponentShots": 1,
         "opponentShotsOnTarget": 1,
         "possession": 51,
+        "opponentPossession": 49,
         "passAccuracy": 85,
-        "fouls": null,
-        "offsides": null
+        "opponentPassAccuracy": 78,
+        "fouls": 0,
+        "opponentFouls": 0,
+        "offsides": 0,
+        "opponentOffsides": 0
       },
       "goalkeeper": {
         "name": "Edwin van der Sar",
@@ -1150,14 +1484,11 @@
         "cleanSheet": true
       },
       "notes": [
-        "Narrow diamond debut",
-        "Messi first archive goal",
-        "Second clean sheet"
+        "Messi winner"
       ],
       "tags": [
-        "Formation Debut",
-        "Clean Sheet",
-        "Messi First Goal"
+        "Win",
+        "4-1-2-1-2 Narrow"
       ]
     },
     {
@@ -1168,13 +1499,14 @@
       "scoreAgainst": 1,
       "formation": "4-1-2-1-2 Narrow",
       "captain": "Federico Dimarco",
-      "headline": "David equalizer rescues a point",
-      "summary": "David scored in the 64th minute to secure a 1-1 draw.",
+      "headline": "M4CROPHAGE and Tommyhu finish level",
+      "summary": "M4CROPHAGE recorded a 1-1 draw against Tommyhu using 4-1-2-1-2 Narrow. David equalizer.",
       "goals": [
         {
           "minute": "64’",
           "scorer": "David",
           "assist": "Christian Pulisic",
+          "origin": "Unknown",
           "gva": 1
         }
       ],
@@ -1191,9 +1523,13 @@
         "opponentShots": 6,
         "opponentShotsOnTarget": 5,
         "possession": 40,
+        "opponentPossession": 60,
         "passAccuracy": 85,
-        "fouls": null,
-        "offsides": null
+        "opponentPassAccuracy": 85,
+        "fouls": 0,
+        "opponentFouls": 1,
+        "offsides": 0,
+        "opponentOffsides": 0
       },
       "goalkeeper": {
         "name": "Edwin van der Sar",
@@ -1204,12 +1540,11 @@
         "cleanSheet": false
       },
       "notes": [
-        "David equalizer rescued a point"
+        "David equalizer"
       ],
       "tags": [
         "Draw",
-        "Equalizer",
-        "David Goal"
+        "4-1-2-1-2 Narrow"
       ]
     },
     {
@@ -1220,31 +1555,35 @@
       "scoreAgainst": 1,
       "formation": "4-1-2-1-2 Narrow",
       "captain": "Federico Dimarco",
-      "headline": "Four scorers power the largest win",
-      "summary": "Mbappé, Messi, Sneijder, and Gullit scored in the first four-goal match and largest win.",
+      "headline": "M4CROPHAGE defeats maycol, 4-1",
+      "summary": "M4CROPHAGE recorded a 4-1 win against maycol using 4-1-2-1-2 Narrow. Four different scorers.",
       "goals": [
         {
           "minute": "23’",
           "scorer": "Kylian Mbappé",
-          "assist": null,
+          "assist": "Jude Bellingham",
+          "origin": "Unknown",
           "gva": 0
         },
         {
           "minute": "37’",
           "scorer": "Lionel Messi",
-          "assist": null,
+          "assist": "Kylian Mbappé",
+          "origin": "Unknown",
           "gva": 0
         },
         {
           "minute": "50’",
           "scorer": "Wesley Sneijder",
-          "assist": null,
+          "assist": "David",
+          "origin": "Unknown",
           "gva": 0
         },
         {
           "minute": "71’",
           "scorer": "Ruud Gullit",
-          "assist": null,
+          "assist": "Christian Pulisic",
+          "origin": "Unknown",
           "gva": 0
         }
       ],
@@ -1266,16 +1605,20 @@
           "count": 1
         }
       ],
-      "assistMappingKnown": false,
+      "assistMappingKnown": true,
       "stats": {
         "shots": 6,
         "shotsOnTarget": 6,
         "opponentShots": 7,
         "opponentShotsOnTarget": 5,
         "possession": 50,
+        "opponentPossession": 50,
         "passAccuracy": 84,
-        "fouls": null,
-        "offsides": null
+        "opponentPassAccuracy": 71,
+        "fouls": 0,
+        "opponentFouls": 0,
+        "offsides": 0,
+        "opponentOffsides": 0
       },
       "goalkeeper": {
         "name": "Edwin van der Sar",
@@ -1286,15 +1629,1035 @@
         "cleanSheet": false
       },
       "notes": [
-        "Largest win",
-        "First four-goal match",
-        "Four scorers",
-        "Assists confirmed but unmapped"
+        "Four different scorers"
       ],
       "tags": [
-        "Largest Win",
-        "Four-Goal Match",
-        "Four Scorers"
+        "Win",
+        "4-1-2-1-2 Narrow"
+      ]
+    },
+    {
+      "id": "S1-M011",
+      "opponent": "HYBRID",
+      "result": "L",
+      "scoreFor": 1,
+      "scoreAgainst": 2,
+      "formation": "4-1-2-1-2 Narrow",
+      "captain": "Federico Dimarco",
+      "headline": "HYBRID hands M4CROPHAGE a 1-2 defeat",
+      "summary": "M4CROPHAGE recorded a 1-2 loss against HYBRID using 4-1-2-1-2 Narrow. Pulisic first goal.",
+      "goals": [
+        {
+          "minute": "90+2’",
+          "scorer": "Christian Pulisic",
+          "assist": "David",
+          "origin": "Unknown",
+          "gva": 0
+        }
+      ],
+      "recordedAssists": [
+        {
+          "player": "David",
+          "count": 1
+        }
+      ],
+      "assistMappingKnown": true,
+      "stats": {
+        "shots": 6,
+        "shotsOnTarget": 4,
+        "opponentShots": 9,
+        "opponentShotsOnTarget": 5,
+        "possession": 47,
+        "opponentPossession": 53,
+        "passAccuracy": 85,
+        "opponentPassAccuracy": 90,
+        "fouls": 1,
+        "opponentFouls": 0,
+        "offsides": 0,
+        "opponentOffsides": 0
+      },
+      "goalkeeper": {
+        "name": "Edwin van der Sar",
+        "shotsOnTargetFaced": 5,
+        "goalsAllowed": 2,
+        "creditedSaves": 3,
+        "savePercentage": 60.0,
+        "cleanSheet": false
+      },
+      "notes": [
+        "Pulisic first goal"
+      ],
+      "tags": [
+        "Loss",
+        "4-1-2-1-2 Narrow"
+      ]
+    },
+    {
+      "id": "S1-M012",
+      "opponent": "Jonathanpro",
+      "result": "W",
+      "scoreFor": 4,
+      "scoreAgainst": 0,
+      "formation": "4-1-2-1-2 Narrow",
+      "captain": "Federico Dimarco",
+      "headline": "M4CROPHAGE defeats Jonathanpro, 4-0",
+      "summary": "M4CROPHAGE recorded a 4-0 win against Jonathanpro using 4-1-2-1-2 Narrow. Messi brace; clean sheet.",
+      "goals": [
+        {
+          "minute": "14’",
+          "scorer": "Kylian Mbappé",
+          "assist": null,
+          "origin": "Unknown",
+          "gva": 0
+        },
+        {
+          "minute": "39’",
+          "scorer": "Lionel Messi",
+          "assist": null,
+          "origin": "Unknown",
+          "gva": 0
+        },
+        {
+          "minute": "45+5’",
+          "scorer": "Lionel Messi",
+          "assist": null,
+          "origin": "Unknown",
+          "gva": 0
+        },
+        {
+          "minute": "64’",
+          "scorer": "David",
+          "assist": null,
+          "origin": "Unknown",
+          "gva": 0
+        }
+      ],
+      "recordedAssists": [
+        {
+          "player": "Lionel Messi",
+          "count": 1
+        },
+        {
+          "player": "Christian Pulisic",
+          "count": 1
+        },
+        {
+          "player": "Kylian Mbappé",
+          "count": 1
+        },
+        {
+          "player": "Ruud Gullit",
+          "count": 1
+        }
+      ],
+      "assistMappingKnown": false,
+      "stats": {
+        "shots": 5,
+        "shotsOnTarget": 5,
+        "opponentShots": 2,
+        "opponentShotsOnTarget": 1,
+        "possession": 51,
+        "opponentPossession": 49,
+        "passAccuracy": 74,
+        "opponentPassAccuracy": 73,
+        "fouls": 1,
+        "opponentFouls": 0,
+        "offsides": 0,
+        "opponentOffsides": 0
+      },
+      "goalkeeper": {
+        "name": "Edwin van der Sar",
+        "shotsOnTargetFaced": 1,
+        "goalsAllowed": 0,
+        "creditedSaves": 1,
+        "savePercentage": 100.0,
+        "cleanSheet": true
+      },
+      "notes": [
+        "Messi brace; clean sheet"
+      ],
+      "tags": [
+        "Win",
+        "4-1-2-1-2 Narrow",
+        "Clean Sheet"
+      ]
+    },
+    {
+      "id": "S1-M013",
+      "opponent": "Darkjenii",
+      "result": "L",
+      "scoreFor": 2,
+      "scoreAgainst": 3,
+      "formation": "4-1-2-1-2 Narrow",
+      "captain": "Federico Dimarco",
+      "headline": "Darkjenii hands M4CROPHAGE a 2-3 defeat",
+      "summary": "M4CROPHAGE recorded a 2-3 loss against Darkjenii using 4-1-2-1-2 Narrow. One opponent goal was a free kick; missed Pulisic breakaway.",
+      "goals": [
+        {
+          "minute": "55’",
+          "scorer": "Kylian Mbappé",
+          "assist": null,
+          "origin": "Unknown",
+          "gva": 0
+        },
+        {
+          "minute": "78’",
+          "scorer": "Christian Pulisic",
+          "assist": null,
+          "origin": "Unknown",
+          "gva": 0
+        }
+      ],
+      "recordedAssists": [
+        {
+          "player": "Lionel Messi",
+          "count": 1
+        },
+        {
+          "player": "Martin Ødegaard",
+          "count": 1
+        }
+      ],
+      "assistMappingKnown": false,
+      "stats": {
+        "shots": 5,
+        "shotsOnTarget": 3,
+        "opponentShots": 8,
+        "opponentShotsOnTarget": 7,
+        "possession": 47,
+        "opponentPossession": 53,
+        "passAccuracy": 69,
+        "opponentPassAccuracy": 76,
+        "fouls": 3,
+        "opponentFouls": 0,
+        "offsides": 0,
+        "opponentOffsides": 0
+      },
+      "goalkeeper": {
+        "name": "Edwin van der Sar",
+        "shotsOnTargetFaced": 7,
+        "goalsAllowed": 3,
+        "creditedSaves": 4,
+        "savePercentage": 57.1,
+        "cleanSheet": false
+      },
+      "notes": [
+        "One opponent goal was a free kick; missed Pulisic breakaway"
+      ],
+      "tags": [
+        "Loss",
+        "4-1-2-1-2 Narrow",
+        "Free Kick"
+      ]
+    },
+    {
+      "id": "S1-M014",
+      "opponent": "Losoralewey",
+      "result": "L",
+      "scoreFor": 2,
+      "scoreAgainst": 3,
+      "formation": "4-1-2-1-2 Narrow",
+      "captain": "Federico Dimarco",
+      "headline": "Losoralewey hands M4CROPHAGE a 2-3 defeat",
+      "summary": "M4CROPHAGE recorded a 2-3 loss against Losoralewey using 4-1-2-1-2 Narrow. Bellingham counter after corner; Gullit corner header; late Ødegaard miss.",
+      "goals": [
+        {
+          "minute": "15’",
+          "scorer": "Jude Bellingham",
+          "assist": "Wesley Sneijder",
+          "origin": "Counterattack",
+          "gva": 0
+        },
+        {
+          "minute": "34’",
+          "scorer": "Ruud Gullit",
+          "assist": "Lionel Messi",
+          "origin": "Corner",
+          "gva": 0
+        }
+      ],
+      "recordedAssists": [
+        {
+          "player": "Wesley Sneijder",
+          "count": 1
+        },
+        {
+          "player": "Lionel Messi",
+          "count": 1
+        }
+      ],
+      "assistMappingKnown": true,
+      "stats": {
+        "shots": 5,
+        "shotsOnTarget": 4,
+        "opponentShots": 6,
+        "opponentShotsOnTarget": 4,
+        "possession": 46,
+        "opponentPossession": 54,
+        "passAccuracy": 83,
+        "opponentPassAccuracy": 91,
+        "fouls": 1,
+        "opponentFouls": 0,
+        "offsides": 1,
+        "opponentOffsides": 0
+      },
+      "goalkeeper": {
+        "name": "Edwin van der Sar",
+        "shotsOnTargetFaced": 4,
+        "goalsAllowed": 3,
+        "creditedSaves": 1,
+        "savePercentage": 25.0,
+        "cleanSheet": false
+      },
+      "notes": [
+        "Bellingham counter after corner; Gullit corner header; late Ødegaard miss"
+      ],
+      "tags": [
+        "Loss",
+        "4-1-2-1-2 Narrow",
+        "Corner"
+      ]
+    },
+    {
+      "id": "S1-M015",
+      "opponent": "Giothegoat",
+      "result": "D",
+      "scoreFor": 1,
+      "scoreAgainst": 1,
+      "formation": "4-1-2-1-2 Narrow",
+      "captain": "Federico Dimarco",
+      "headline": "M4CROPHAGE and Giothegoat finish level",
+      "summary": "M4CROPHAGE recorded a 1-1 draw against Giothegoat using 4-1-2-1-2 Narrow. Conceded at 90+5.",
+      "goals": [
+        {
+          "minute": "45+3’",
+          "scorer": "Kylian Mbappé",
+          "assist": "Lionel Messi",
+          "origin": "Unknown",
+          "gva": 1
+        }
+      ],
+      "recordedAssists": [
+        {
+          "player": "Lionel Messi",
+          "count": 1
+        }
+      ],
+      "assistMappingKnown": true,
+      "stats": {
+        "shots": 4,
+        "shotsOnTarget": 2,
+        "opponentShots": 4,
+        "opponentShotsOnTarget": 3,
+        "possession": 43,
+        "opponentPossession": 57,
+        "passAccuracy": 72,
+        "opponentPassAccuracy": 86,
+        "fouls": 0,
+        "opponentFouls": 0,
+        "offsides": 0,
+        "opponentOffsides": 1
+      },
+      "goalkeeper": {
+        "name": "Edwin van der Sar",
+        "shotsOnTargetFaced": 3,
+        "goalsAllowed": 1,
+        "creditedSaves": 2,
+        "savePercentage": 66.7,
+        "cleanSheet": false
+      },
+      "notes": [
+        "Conceded at 90+5"
+      ],
+      "tags": [
+        "Draw",
+        "4-1-2-1-2 Narrow"
+      ]
+    },
+    {
+      "id": "S1-M016",
+      "opponent": "Ares",
+      "result": "L",
+      "scoreFor": 1,
+      "scoreAgainst": 4,
+      "formation": "4-1-2-1-2 Narrow",
+      "captain": "Federico Dimarco",
+      "headline": "Ares hands M4CROPHAGE a 1-4 defeat",
+      "summary": "M4CROPHAGE recorded a 1-4 loss against Ares using 4-1-2-1-2 Narrow. Opponent Messi hat trick.",
+      "goals": [
+        {
+          "minute": "77’",
+          "scorer": "Kylian Mbappé",
+          "assist": "Martin Ødegaard",
+          "origin": "Unknown",
+          "gva": 0
+        }
+      ],
+      "recordedAssists": [
+        {
+          "player": "Martin Ødegaard",
+          "count": 1
+        }
+      ],
+      "assistMappingKnown": true,
+      "stats": {
+        "shots": 2,
+        "shotsOnTarget": 2,
+        "opponentShots": 8,
+        "opponentShotsOnTarget": 7,
+        "possession": 40,
+        "opponentPossession": 60,
+        "passAccuracy": 78,
+        "opponentPassAccuracy": 88,
+        "fouls": 0,
+        "opponentFouls": 1,
+        "offsides": 0,
+        "opponentOffsides": 0
+      },
+      "goalkeeper": {
+        "name": "Edwin van der Sar",
+        "shotsOnTargetFaced": 7,
+        "goalsAllowed": 4,
+        "creditedSaves": 3,
+        "savePercentage": 42.9,
+        "cleanSheet": false
+      },
+      "notes": [
+        "Opponent Messi hat trick"
+      ],
+      "tags": [
+        "Loss",
+        "4-1-2-1-2 Narrow",
+        "Hat Trick"
+      ]
+    },
+    {
+      "id": "S1-M017",
+      "opponent": "Save",
+      "result": "L",
+      "scoreFor": 1,
+      "scoreAgainst": 4,
+      "formation": "4-1-2-1-2 Narrow",
+      "captain": "Federico Dimarco",
+      "headline": "Save hands M4CROPHAGE a 1-4 defeat",
+      "summary": "M4CROPHAGE recorded a 1-4 loss against Save using 4-1-2-1-2 Narrow. Messi scored.",
+      "goals": [
+        {
+          "minute": "60’",
+          "scorer": "Lionel Messi",
+          "assist": "Jude Bellingham",
+          "origin": "Unknown",
+          "gva": 0
+        }
+      ],
+      "recordedAssists": [
+        {
+          "player": "Jude Bellingham",
+          "count": 1
+        }
+      ],
+      "assistMappingKnown": true,
+      "stats": {
+        "shots": 1,
+        "shotsOnTarget": 1,
+        "opponentShots": 6,
+        "opponentShotsOnTarget": 6,
+        "possession": 38,
+        "opponentPossession": 62,
+        "passAccuracy": 71,
+        "opponentPassAccuracy": 81,
+        "fouls": 1,
+        "opponentFouls": 0,
+        "offsides": 0,
+        "opponentOffsides": 0
+      },
+      "goalkeeper": {
+        "name": "Edwin van der Sar",
+        "shotsOnTargetFaced": 6,
+        "goalsAllowed": 4,
+        "creditedSaves": 2,
+        "savePercentage": 33.3,
+        "cleanSheet": false
+      },
+      "notes": [
+        "Messi scored"
+      ],
+      "tags": [
+        "Loss",
+        "4-1-2-1-2 Narrow"
+      ]
+    },
+    {
+      "id": "S1-M018",
+      "opponent": "Atx_paulywally",
+      "result": "W",
+      "scoreFor": 2,
+      "scoreAgainst": 0,
+      "formation": "3-5-2",
+      "captain": "Christian Pulisic",
+      "headline": "M4CROPHAGE defeats Atx_paulywally, 2-0",
+      "summary": "M4CROPHAGE recorded a 2-0 win against Atx_paulywally using 3-5-2. 3-5-2 return; clean sheet.",
+      "goals": [
+        {
+          "minute": "51’",
+          "scorer": "Wesley Sneijder",
+          "assist": "Lionel Messi",
+          "origin": "Unknown",
+          "gva": 0
+        },
+        {
+          "minute": "63’",
+          "scorer": "Kylian Mbappé",
+          "assist": "Lionel Messi",
+          "origin": "Unknown",
+          "gva": 0
+        }
+      ],
+      "recordedAssists": [
+        {
+          "player": "Lionel Messi",
+          "count": 2
+        }
+      ],
+      "assistMappingKnown": true,
+      "stats": {
+        "shots": 3,
+        "shotsOnTarget": 2,
+        "opponentShots": 3,
+        "opponentShotsOnTarget": 1,
+        "possession": 48,
+        "opponentPossession": 52,
+        "passAccuracy": 72,
+        "opponentPassAccuracy": 86,
+        "fouls": 0,
+        "opponentFouls": 0,
+        "offsides": 0,
+        "opponentOffsides": 0
+      },
+      "goalkeeper": {
+        "name": "Edwin van der Sar",
+        "shotsOnTargetFaced": 1,
+        "goalsAllowed": 0,
+        "creditedSaves": 1,
+        "savePercentage": 100.0,
+        "cleanSheet": true
+      },
+      "notes": [
+        "3-5-2 return; clean sheet"
+      ],
+      "tags": [
+        "Win",
+        "3-5-2",
+        "Clean Sheet"
+      ]
+    },
+    {
+      "id": "S1-M019",
+      "opponent": "Mexico2012",
+      "result": "D",
+      "scoreFor": 0,
+      "scoreAgainst": 0,
+      "formation": "3-5-2",
+      "captain": "Christian Pulisic",
+      "headline": "M4CROPHAGE and Mexico2012 finish level",
+      "summary": "M4CROPHAGE recorded a 0-0 draw against Mexico2012 using 3-5-2. Allowed zero shots.",
+      "goals": [],
+      "recordedAssists": [],
+      "assistMappingKnown": true,
+      "stats": {
+        "shots": 4,
+        "shotsOnTarget": 2,
+        "opponentShots": 0,
+        "opponentShotsOnTarget": 0,
+        "possession": 45,
+        "opponentPossession": 55,
+        "passAccuracy": 72,
+        "opponentPassAccuracy": 81,
+        "fouls": 1,
+        "opponentFouls": 0,
+        "offsides": 0,
+        "opponentOffsides": 1
+      },
+      "goalkeeper": {
+        "name": "Edwin van der Sar",
+        "shotsOnTargetFaced": 0,
+        "goalsAllowed": 0,
+        "creditedSaves": 0,
+        "savePercentage": 0.0,
+        "cleanSheet": true
+      },
+      "notes": [
+        "Allowed zero shots"
+      ],
+      "tags": [
+        "Draw",
+        "3-5-2",
+        "Zero Shots"
+      ]
+    },
+    {
+      "id": "S1-M020",
+      "opponent": "Iquess",
+      "result": "D",
+      "scoreFor": 3,
+      "scoreAgainst": 3,
+      "formation": "3-5-2",
+      "captain": "Christian Pulisic",
+      "headline": "David hat trick crowns a six-goal draw",
+      "summary": "M4CROPHAGE recorded a 3-3 draw against Iquess using 3-5-2. David hat trick; Messi 3 assists.",
+      "goals": [
+        {
+          "minute": "72’",
+          "scorer": "David",
+          "assist": "Lionel Messi",
+          "origin": "Unknown",
+          "gva": 1
+        },
+        {
+          "minute": "83’",
+          "scorer": "David",
+          "assist": "Lionel Messi",
+          "origin": "Unknown",
+          "gva": 1
+        },
+        {
+          "minute": "89’",
+          "scorer": "David",
+          "assist": "Lionel Messi",
+          "origin": "Unknown",
+          "gva": 1
+        }
+      ],
+      "recordedAssists": [
+        {
+          "player": "Lionel Messi",
+          "count": 3
+        }
+      ],
+      "assistMappingKnown": true,
+      "stats": {
+        "shots": 5,
+        "shotsOnTarget": 5,
+        "opponentShots": 6,
+        "opponentShotsOnTarget": 6,
+        "possession": 43,
+        "opponentPossession": 57,
+        "passAccuracy": 78,
+        "opponentPassAccuracy": 79,
+        "fouls": 0,
+        "opponentFouls": 0,
+        "offsides": 0,
+        "opponentOffsides": 1
+      },
+      "goalkeeper": {
+        "name": "Edwin van der Sar",
+        "shotsOnTargetFaced": 6,
+        "goalsAllowed": 3,
+        "creditedSaves": 3,
+        "savePercentage": 50.0,
+        "cleanSheet": false
+      },
+      "notes": [
+        "David hat trick; Messi 3 assists"
+      ],
+      "tags": [
+        "Draw",
+        "3-5-2",
+        "Hat Trick"
+      ]
+    },
+    {
+      "id": "S1-M021",
+      "opponent": "Mbappe1",
+      "result": "L",
+      "scoreFor": 0,
+      "scoreAgainst": 2,
+      "formation": "3-5-2",
+      "captain": "Christian Pulisic",
+      "headline": "Mbappe1 hands M4CROPHAGE a 0-2 defeat",
+      "summary": "M4CROPHAGE recorded a 0-2 loss against Mbappe1 using 3-5-2. Pulisic captaincy loss.",
+      "goals": [],
+      "recordedAssists": [],
+      "assistMappingKnown": true,
+      "stats": {
+        "shots": 4,
+        "shotsOnTarget": 3,
+        "opponentShots": 7,
+        "opponentShotsOnTarget": 4,
+        "possession": 44,
+        "opponentPossession": 56,
+        "passAccuracy": 74,
+        "opponentPassAccuracy": 71,
+        "fouls": 0,
+        "opponentFouls": 2,
+        "offsides": 0,
+        "opponentOffsides": 0
+      },
+      "goalkeeper": {
+        "name": "Edwin van der Sar",
+        "shotsOnTargetFaced": 4,
+        "goalsAllowed": 2,
+        "creditedSaves": 2,
+        "savePercentage": 50.0,
+        "cleanSheet": false
+      },
+      "notes": [
+        "Pulisic captaincy loss"
+      ],
+      "tags": [
+        "Loss",
+        "3-5-2",
+        "Captaincy Loss"
+      ]
+    },
+    {
+      "id": "S1-M022",
+      "opponent": "Saminf",
+      "result": "D",
+      "scoreFor": 1,
+      "scoreAgainst": 1,
+      "formation": "3-5-2",
+      "captain": "Christian Pulisic",
+      "headline": "M4CROPHAGE and Saminf finish level",
+      "summary": "M4CROPHAGE recorded a 1-1 draw against Saminf using 3-5-2. Mbappé goal unassisted.",
+      "goals": [
+        {
+          "minute": "30’",
+          "scorer": "Kylian Mbappé",
+          "assist": null,
+          "origin": "Unknown",
+          "gva": 1
+        }
+      ],
+      "recordedAssists": [],
+      "assistMappingKnown": true,
+      "stats": {
+        "shots": 1,
+        "shotsOnTarget": 1,
+        "opponentShots": 3,
+        "opponentShotsOnTarget": 2,
+        "possession": 46,
+        "opponentPossession": 54,
+        "passAccuracy": 75,
+        "opponentPassAccuracy": 92,
+        "fouls": 0,
+        "opponentFouls": 0,
+        "offsides": 0,
+        "opponentOffsides": 0
+      },
+      "goalkeeper": {
+        "name": "Edwin van der Sar",
+        "shotsOnTargetFaced": 2,
+        "goalsAllowed": 1,
+        "creditedSaves": 1,
+        "savePercentage": 50.0,
+        "cleanSheet": false
+      },
+      "notes": [
+        "Mbappé goal unassisted"
+      ],
+      "tags": [
+        "Draw",
+        "3-5-2"
+      ]
+    },
+    {
+      "id": "S1-M023",
+      "opponent": "Simp",
+      "result": "D",
+      "scoreFor": 1,
+      "scoreAgainst": 1,
+      "formation": "3-5-2",
+      "captain": "Christian Pulisic",
+      "headline": "M4CROPHAGE and Simp finish level",
+      "summary": "M4CROPHAGE recorded a 1-1 draw against Simp using 3-5-2. Opponent scored with only shot.",
+      "goals": [
+        {
+          "minute": "21’",
+          "scorer": "Kylian Mbappé",
+          "assist": "Wesley Sneijder",
+          "origin": "Unknown",
+          "gva": 1
+        }
+      ],
+      "recordedAssists": [
+        {
+          "player": "Wesley Sneijder",
+          "count": 1
+        }
+      ],
+      "assistMappingKnown": true,
+      "stats": {
+        "shots": 3,
+        "shotsOnTarget": 3,
+        "opponentShots": 1,
+        "opponentShotsOnTarget": 1,
+        "possession": 49,
+        "opponentPossession": 51,
+        "passAccuracy": 84,
+        "opponentPassAccuracy": 86,
+        "fouls": 0,
+        "opponentFouls": 0,
+        "offsides": 1,
+        "opponentOffsides": 0
+      },
+      "goalkeeper": {
+        "name": "Edwin van der Sar",
+        "shotsOnTargetFaced": 1,
+        "goalsAllowed": 1,
+        "creditedSaves": 0,
+        "savePercentage": 0.0,
+        "cleanSheet": false
+      },
+      "notes": [
+        "Opponent scored with only shot"
+      ],
+      "tags": [
+        "Draw",
+        "3-5-2",
+        "One-Shot Concession"
+      ]
+    },
+    {
+      "id": "S1-M024",
+      "opponent": "Maxcovac102",
+      "result": "W",
+      "scoreFor": 2,
+      "scoreAgainst": 1,
+      "formation": "3-5-2",
+      "captain": "Edwin van der Sar",
+      "headline": "Lamine and Rice deliver on debut night",
+      "summary": "M4CROPHAGE recorded a 2-1 win against Maxcovac102 using 3-5-2. Lamine and Maldini debut; Lamine goal.",
+      "goals": [
+        {
+          "minute": "22’",
+          "scorer": "Lamine Yamal",
+          "assist": "Kylian Mbappé",
+          "origin": "Unknown",
+          "gva": 2
+        },
+        {
+          "minute": "69’",
+          "scorer": "Declan Rice",
+          "assist": "Wesley Sneijder",
+          "origin": "Unknown",
+          "gva": 2
+        }
+      ],
+      "recordedAssists": [
+        {
+          "player": "Kylian Mbappé",
+          "count": 1
+        },
+        {
+          "player": "Wesley Sneijder",
+          "count": 1
+        }
+      ],
+      "assistMappingKnown": true,
+      "stats": {
+        "shots": 7,
+        "shotsOnTarget": 5,
+        "opponentShots": 2,
+        "opponentShotsOnTarget": 2,
+        "possession": 47,
+        "opponentPossession": 53,
+        "passAccuracy": 79,
+        "opponentPassAccuracy": 87,
+        "fouls": 1,
+        "opponentFouls": 0,
+        "offsides": 0,
+        "opponentOffsides": 0
+      },
+      "goalkeeper": {
+        "name": "Edwin van der Sar",
+        "shotsOnTargetFaced": 2,
+        "goalsAllowed": 1,
+        "creditedSaves": 1,
+        "savePercentage": 50.0,
+        "cleanSheet": false
+      },
+      "notes": [
+        "Lamine and Maldini debut; Lamine goal"
+      ],
+      "tags": [
+        "Win",
+        "3-5-2",
+        "Debut"
+      ]
+    },
+    {
+      "id": "S1-M025",
+      "opponent": "Moments",
+      "result": "L",
+      "scoreFor": 0,
+      "scoreAgainst": 1,
+      "formation": "4-2-3-1 Wide",
+      "captain": "Edwin van der Sar",
+      "headline": "Moments hands M4CROPHAGE a 0-1 defeat",
+      "summary": "M4CROPHAGE recorded a 0-1 loss against Moments using 4-2-3-1 Wide. Formation abandoned after one match.",
+      "goals": [],
+      "recordedAssists": [],
+      "assistMappingKnown": true,
+      "stats": {
+        "shots": 2,
+        "shotsOnTarget": 2,
+        "opponentShots": 6,
+        "opponentShotsOnTarget": 4,
+        "possession": 34,
+        "opponentPossession": 66,
+        "passAccuracy": 74,
+        "opponentPassAccuracy": 80,
+        "fouls": 1,
+        "opponentFouls": 0,
+        "offsides": 0,
+        "opponentOffsides": 0
+      },
+      "goalkeeper": {
+        "name": "Edwin van der Sar",
+        "shotsOnTargetFaced": 4,
+        "goalsAllowed": 1,
+        "creditedSaves": 3,
+        "savePercentage": 75.0,
+        "cleanSheet": false
+      },
+      "notes": [
+        "Formation abandoned after one match"
+      ],
+      "tags": [
+        "Loss",
+        "4-2-3-1 Wide",
+        "Formation Abandoned"
+      ]
+    },
+    {
+      "id": "S1-M026",
+      "opponent": "Diooverheaven",
+      "result": "L",
+      "scoreFor": 0,
+      "scoreAgainst": 2,
+      "formation": "3-5-2",
+      "captain": "Edwin van der Sar",
+      "headline": "Diooverheaven hands M4CROPHAGE a 0-2 defeat",
+      "summary": "M4CROPHAGE recorded a 0-2 loss against Diooverheaven using 3-5-2. One recent concession from set piece/penalty window.",
+      "goals": [],
+      "recordedAssists": [],
+      "assistMappingKnown": true,
+      "stats": {
+        "shots": 1,
+        "shotsOnTarget": 1,
+        "opponentShots": 11,
+        "opponentShotsOnTarget": 6,
+        "possession": 42,
+        "opponentPossession": 58,
+        "passAccuracy": 81,
+        "opponentPassAccuracy": 85,
+        "fouls": 2,
+        "opponentFouls": 0,
+        "offsides": 0,
+        "opponentOffsides": 0
+      },
+      "goalkeeper": {
+        "name": "Edwin van der Sar",
+        "shotsOnTargetFaced": 6,
+        "goalsAllowed": 2,
+        "creditedSaves": 4,
+        "savePercentage": 66.7,
+        "cleanSheet": false
+      },
+      "notes": [
+        "One recent concession from set piece/penalty window"
+      ],
+      "tags": [
+        "Loss",
+        "3-5-2"
+      ]
+    },
+    {
+      "id": "S1-M027",
+      "opponent": "Soccerforever",
+      "result": "D",
+      "scoreFor": 0,
+      "scoreAgainst": 0,
+      "formation": "4-3-3 Holding",
+      "captain": "Federico Dimarco",
+      "headline": "M4CROPHAGE and Soccerforever finish level",
+      "summary": "M4CROPHAGE recorded a 0-0 draw against Soccerforever using 4-3-3 Holding. Return to familiar holding shape.",
+      "goals": [],
+      "recordedAssists": [],
+      "assistMappingKnown": true,
+      "stats": {
+        "shots": 2,
+        "shotsOnTarget": 2,
+        "opponentShots": 4,
+        "opponentShotsOnTarget": 3,
+        "possession": 42,
+        "opponentPossession": 58,
+        "passAccuracy": 85,
+        "opponentPassAccuracy": 89,
+        "fouls": 0,
+        "opponentFouls": 0,
+        "offsides": 0,
+        "opponentOffsides": 0
+      },
+      "goalkeeper": {
+        "name": "Edwin van der Sar",
+        "shotsOnTargetFaced": 3,
+        "goalsAllowed": 0,
+        "creditedSaves": 3,
+        "savePercentage": 100.0,
+        "cleanSheet": true
+      },
+      "notes": [
+        "Return to familiar holding shape"
+      ],
+      "tags": [
+        "Draw",
+        "4-3-3 Holding"
+      ]
+    },
+    {
+      "id": "S1-M028",
+      "opponent": "TheDeep",
+      "result": "D",
+      "scoreFor": 0,
+      "scoreAgainst": 0,
+      "formation": "3-4-3 Flat",
+      "captain": "Federico Dimarco",
+      "headline": "First 3-4-3 Flat trial ends scoreless",
+      "summary": "M4CROPHAGE recorded a 0-0 draw against TheDeep using 3-4-3 Flat. First 3-4-3 Flat trial.",
+      "goals": [],
+      "recordedAssists": [],
+      "assistMappingKnown": true,
+      "stats": {
+        "shots": 6,
+        "shotsOnTarget": 4,
+        "opponentShots": 6,
+        "opponentShotsOnTarget": 5,
+        "possession": 45,
+        "opponentPossession": 55,
+        "passAccuracy": 75,
+        "opponentPassAccuracy": 78,
+        "fouls": 0,
+        "opponentFouls": 0,
+        "offsides": 1,
+        "opponentOffsides": 0
+      },
+      "goalkeeper": {
+        "name": "Edwin van der Sar",
+        "shotsOnTargetFaced": 5,
+        "goalsAllowed": 0,
+        "creditedSaves": 5,
+        "savePercentage": 100.0,
+        "cleanSheet": true
+      },
+      "notes": [
+        "First 3-4-3 Flat trial"
+      ],
+      "tags": [
+        "Draw",
+        "3-4-3 Flat",
+        "Formation Trial"
       ]
     }
   ]
